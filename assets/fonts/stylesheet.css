@@ -1,0 +1,384 @@
+@font-face {
+    font-family: 'Brother 1816';
+    src: url('Brother1816-ExtraBoldItalic.eot');
+    src: local('Brother 1816 ExtraBold Italic'), local('Brother1816-ExtraBoldItalic'),
+        url('Brother1816-ExtraBoldItalic.eot?#iefix') format('embedded-opentype'),
+        url('Brother1816-ExtraBoldItalic.woff2') format('woff2'),
+        url('Brother1816-ExtraBoldItalic.woff') format('woff'),
+        url('Brother1816-ExtraBoldItalic.ttf') format('truetype');
+    font-weight: 800;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Brother 1816';
+    src: url('Brother1816-BlackItalic.eot');
+    src: local('Brother 1816 Black Italic'), local('Brother1816-BlackItalic'),
+        url('Brother1816-BlackItalic.eot?#iefix') format('embedded-opentype'),
+        url('Brother1816-BlackItalic.woff2') format('woff2'),
+        url('Brother1816-BlackItalic.woff') format('woff'),
+        url('Brother1816-BlackItalic.ttf') format('truetype');
+    font-weight: 900;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Brother 1816';
+    src: url('Brother1816-BookItalic.eot');
+    src: local('Brother 1816 Book Italic'), local('Brother1816-BookItalic'),
+        url('Brother1816-BookItalic.eot?#iefix') format('embedded-opentype'),
+        url('Brother1816-BookItalic.woff2') format('woff2'),
+        url('Brother1816-BookItalic.woff') format('woff'),
+        url('Brother1816-BookItalic.ttf') format('truetype');
+    font-weight: normal;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Brother 1816';
+    src: url('Brother1816-Bold.eot');
+    src: local('Brother 1816 Bold'), local('Brother1816-Bold'),
+        url('Brother1816-Bold.eot?#iefix') format('embedded-opentype'),
+        url('Brother1816-Bold.woff2') format('woff2'),
+        url('Brother1816-Bold.woff') format('woff'),
+        url('Brother1816-Bold.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Brother 1816';
+    src: url('Brother1816-Medium.eot');
+    src: local('Brother 1816 Medium'), local('Brother1816-Medium'),
+        url('Brother1816-Medium.eot?#iefix') format('embedded-opentype'),
+        url('Brother1816-Medium.woff2') format('woff2'),
+        url('Brother1816-Medium.woff') format('woff'),
+        url('Brother1816-Medium.ttf') format('truetype');
+    font-weight: 500;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Brother1816 Printed';
+    src: url('Brother1816Printed-Black.eot');
+    src: local('Brother1816 Printed Black'), local('Brother1816Printed-Black'),
+        url('Brother1816Printed-Black.eot?#iefix') format('embedded-opentype'),
+        url('Brother1816Printed-Black.woff2') format('woff2'),
+        url('Brother1816Printed-Black.woff') format('woff'),
+        url('Brother1816Printed-Black.ttf') format('truetype');
+    font-weight: 900;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Brother1816 Printed';
+    src: url('Brother1816Printed-Bold.eot');
+    src: local('Brother1816 Printed Bold'), local('Brother1816Printed-Bold'),
+        url('Brother1816Printed-Bold.eot?#iefix') format('embedded-opentype'),
+        url('Brother1816Printed-Bold.woff2') format('woff2'),
+        url('Brother1816Printed-Bold.woff') format('woff'),
+        url('Brother1816Printed-Bold.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Brother1816 Printed';
+    src: url('Brother1816Printed-RegularItali.eot');
+    src: local('Brother1816 Printed Regular Italic'), local('Brother1816Printed-RegularItali'),
+        url('Brother1816Printed-RegularItali.eot?#iefix') format('embedded-opentype'),
+        url('Brother1816Printed-RegularItali.woff2') format('woff2'),
+        url('Brother1816Printed-RegularItali.woff') format('woff'),
+        url('Brother1816Printed-RegularItali.ttf') format('truetype');
+    font-weight: normal;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Brother1816 Printed';
+    src: url('Brother1816Printed-ExtraBoldIta.eot');
+    src: local('Brother1816 Printed ExtraBold Italic'), local('Brother1816Printed-ExtraBoldIta'),
+        url('Brother1816Printed-ExtraBoldIta.eot?#iefix') format('embedded-opentype'),
+        url('Brother1816Printed-ExtraBoldIta.woff2') format('woff2'),
+        url('Brother1816Printed-ExtraBoldIta.woff') format('woff'),
+        url('Brother1816Printed-ExtraBoldIta.ttf') format('truetype');
+    font-weight: 800;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Brother1816 Printed';
+    src: url('Brother1816Printed-Regular.eot');
+    src: local('Brother1816 Printed Regular'), local('Brother1816Printed-Regular'),
+        url('Brother1816Printed-Regular.eot?#iefix') format('embedded-opentype'),
+        url('Brother1816Printed-Regular.woff2') format('woff2'),
+        url('Brother1816Printed-Regular.woff') format('woff'),
+        url('Brother1816Printed-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Brother1816 Printed';
+    src: url('Brother1816Printed-ThinItalic.eot');
+    src: local('Brother1816 Printed Thin Italic'), local('Brother1816Printed-ThinItalic'),
+        url('Brother1816Printed-ThinItalic.eot?#iefix') format('embedded-opentype'),
+        url('Brother1816Printed-ThinItalic.woff2') format('woff2'),
+        url('Brother1816Printed-ThinItalic.woff') format('woff'),
+        url('Brother1816Printed-ThinItalic.ttf') format('truetype');
+    font-weight: 100;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Brother 1816';
+    src: url('Brother1816-BoldItalic.eot');
+    src: local('Brother 1816 Bold Italic'), local('Brother1816-BoldItalic'),
+        url('Brother1816-BoldItalic.eot?#iefix') format('embedded-opentype'),
+        url('Brother1816-BoldItalic.woff2') format('woff2'),
+        url('Brother1816-BoldItalic.woff') format('woff'),
+        url('Brother1816-BoldItalic.ttf') format('truetype');
+    font-weight: bold;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Brother 1816';
+    src: url('Brother1816-Regular.eot');
+    src: local('Brother 1816 Regular'), local('Brother1816-Regular'),
+        url('Brother1816-Regular.eot?#iefix') format('embedded-opentype'),
+        url('Brother1816-Regular.woff2') format('woff2'),
+        url('Brother1816-Regular.woff') format('woff'),
+        url('Brother1816-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Brother 1816';
+    src: url('Brother1816-Book.eot');
+    src: local('Brother 1816 Book'), local('Brother1816-Book'),
+        url('Brother1816-Book.eot?#iefix') format('embedded-opentype'),
+        url('Brother1816-Book.woff2') format('woff2'),
+        url('Brother1816-Book.woff') format('woff'),
+        url('Brother1816-Book.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Brother 1816';
+    src: url('Brother1816-Light.eot');
+    src: local('Brother 1816 Light'), local('Brother1816-Light'),
+        url('Brother1816-Light.eot?#iefix') format('embedded-opentype'),
+        url('Brother1816-Light.woff2') format('woff2'),
+        url('Brother1816-Light.woff') format('woff'),
+        url('Brother1816-Light.ttf') format('truetype');
+    font-weight: 300;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Brother1816 Printed';
+    src: url('Brother1816Printed-BoldItalic.eot');
+    src: local('Brother1816 Printed Bold Italic'), local('Brother1816Printed-BoldItalic'),
+        url('Brother1816Printed-BoldItalic.eot?#iefix') format('embedded-opentype'),
+        url('Brother1816Printed-BoldItalic.woff2') format('woff2'),
+        url('Brother1816Printed-BoldItalic.woff') format('woff'),
+        url('Brother1816Printed-BoldItalic.ttf') format('truetype');
+    font-weight: bold;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Brother1816 Printed';
+    src: url('Brother1816Printed-BlackItalic.eot');
+    src: local('Brother1816 Printed Black Italic'), local('Brother1816Printed-BlackItalic'),
+        url('Brother1816Printed-BlackItalic.eot?#iefix') format('embedded-opentype'),
+        url('Brother1816Printed-BlackItalic.woff2') format('woff2'),
+        url('Brother1816Printed-BlackItalic.woff') format('woff'),
+        url('Brother1816Printed-BlackItalic.ttf') format('truetype');
+    font-weight: 900;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Brother1816 Printed';
+    src: url('Brother1816Printed-MediumItalic.eot');
+    src: local('Brother1816 Printed Medium Italic'), local('Brother1816Printed-MediumItalic'),
+        url('Brother1816Printed-MediumItalic.eot?#iefix') format('embedded-opentype'),
+        url('Brother1816Printed-MediumItalic.woff2') format('woff2'),
+        url('Brother1816Printed-MediumItalic.woff') format('woff'),
+        url('Brother1816Printed-MediumItalic.ttf') format('truetype');
+    font-weight: 500;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Brother 1816';
+    src: url('Brother1816-Regulartalic.eot');
+    src: local('Brother 1816 Regular talic'), local('Brother1816-Regulartalic'),
+        url('Brother1816-Regulartalic.eot?#iefix') format('embedded-opentype'),
+        url('Brother1816-Regulartalic.woff2') format('woff2'),
+        url('Brother1816-Regulartalic.woff') format('woff'),
+        url('Brother1816-Regulartalic.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Brother 1816';
+    src: url('Brother1816-Black.eot');
+    src: local('Brother 1816 Black'), local('Brother1816-Black'),
+        url('Brother1816-Black.eot?#iefix') format('embedded-opentype'),
+        url('Brother1816-Black.woff2') format('woff2'),
+        url('Brother1816-Black.woff') format('woff'),
+        url('Brother1816-Black.ttf') format('truetype');
+    font-weight: 900;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Brother 1816';
+    src: url('Brother1816-Thin.eot');
+    src: local('Brother 1816 Thin'), local('Brother1816-Thin'),
+        url('Brother1816-Thin.eot?#iefix') format('embedded-opentype'),
+        url('Brother1816-Thin.woff2') format('woff2'),
+        url('Brother1816-Thin.woff') format('woff'),
+        url('Brother1816-Thin.ttf') format('truetype');
+    font-weight: 100;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Brother 1816';
+    src: url('Brother1816-ExtraBold.eot');
+    src: local('Brother 1816 ExtraBold'), local('Brother1816-ExtraBold'),
+        url('Brother1816-ExtraBold.eot?#iefix') format('embedded-opentype'),
+        url('Brother1816-ExtraBold.woff2') format('woff2'),
+        url('Brother1816-ExtraBold.woff') format('woff'),
+        url('Brother1816-ExtraBold.ttf') format('truetype');
+    font-weight: 800;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Brother1816 Printed';
+    src: url('Brother1816Printed-Book.eot');
+    src: local('Brother1816 Printed Book'), local('Brother1816Printed-Book'),
+        url('Brother1816Printed-Book.eot?#iefix') format('embedded-opentype'),
+        url('Brother1816Printed-Book.woff2') format('woff2'),
+        url('Brother1816Printed-Book.woff') format('woff'),
+        url('Brother1816Printed-Book.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Brother1816 Printed';
+    src: url('Brother1816Printed-LightItalic.eot');
+    src: local('Brother1816 Printed Light Italic'), local('Brother1816Printed-LightItalic'),
+        url('Brother1816Printed-LightItalic.eot?#iefix') format('embedded-opentype'),
+        url('Brother1816Printed-LightItalic.woff2') format('woff2'),
+        url('Brother1816Printed-LightItalic.woff') format('woff'),
+        url('Brother1816Printed-LightItalic.ttf') format('truetype');
+    font-weight: 300;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Brother1816 Printed';
+    src: url('Brother1816Printed-Thin.eot');
+    src: local('Brother1816 Printed Thin'), local('Brother1816Printed-Thin'),
+        url('Brother1816Printed-Thin.eot?#iefix') format('embedded-opentype'),
+        url('Brother1816Printed-Thin.woff2') format('woff2'),
+        url('Brother1816Printed-Thin.woff') format('woff'),
+        url('Brother1816Printed-Thin.ttf') format('truetype');
+    font-weight: 100;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Brother 1816';
+    src: url('Brother1816-MediumItalic.eot');
+    src: local('Brother 1816 Medium Italic'), local('Brother1816-MediumItalic'),
+        url('Brother1816-MediumItalic.eot?#iefix') format('embedded-opentype'),
+        url('Brother1816-MediumItalic.woff2') format('woff2'),
+        url('Brother1816-MediumItalic.woff') format('woff'),
+        url('Brother1816-MediumItalic.ttf') format('truetype');
+    font-weight: 500;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Brother1816 Printed';
+    src: url('Brother1816Printed-Medium.eot');
+    src: local('Brother1816 Printed Medium'), local('Brother1816Printed-Medium'),
+        url('Brother1816Printed-Medium.eot?#iefix') format('embedded-opentype'),
+        url('Brother1816Printed-Medium.woff2') format('woff2'),
+        url('Brother1816Printed-Medium.woff') format('woff'),
+        url('Brother1816Printed-Medium.ttf') format('truetype');
+    font-weight: 500;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Brother1816 Printed';
+    src: url('Brother1816Printed-Light.eot');
+    src: local('Brother1816 Printed Light'), local('Brother1816Printed-Light'),
+        url('Brother1816Printed-Light.eot?#iefix') format('embedded-opentype'),
+        url('Brother1816Printed-Light.woff2') format('woff2'),
+        url('Brother1816Printed-Light.woff') format('woff'),
+        url('Brother1816Printed-Light.ttf') format('truetype');
+    font-weight: 300;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Brother 1816';
+    src: url('Brother1816-ThinItalic.eot');
+    src: local('Brother 1816 Thin Italic'), local('Brother1816-ThinItalic'),
+        url('Brother1816-ThinItalic.eot?#iefix') format('embedded-opentype'),
+        url('Brother1816-ThinItalic.woff2') format('woff2'),
+        url('Brother1816-ThinItalic.woff') format('woff'),
+        url('Brother1816-ThinItalic.ttf') format('truetype');
+    font-weight: 100;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Brother1816 Printed';
+    src: url('Brother1816Printed-BookItalic.eot');
+    src: local('Brother1816 Printed Book Italic'), local('Brother1816Printed-BookItalic'),
+        url('Brother1816Printed-BookItalic.eot?#iefix') format('embedded-opentype'),
+        url('Brother1816Printed-BookItalic.woff2') format('woff2'),
+        url('Brother1816Printed-BookItalic.woff') format('woff'),
+        url('Brother1816Printed-BookItalic.ttf') format('truetype');
+    font-weight: normal;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Brother1816 Printed';
+    src: url('Brother1816Printed-ExtraBold.eot');
+    src: local('Brother1816 Printed ExtraBold'), local('Brother1816Printed-ExtraBold'),
+        url('Brother1816Printed-ExtraBold.eot?#iefix') format('embedded-opentype'),
+        url('Brother1816Printed-ExtraBold.woff2') format('woff2'),
+        url('Brother1816Printed-ExtraBold.woff') format('woff'),
+        url('Brother1816Printed-ExtraBold.ttf') format('truetype');
+    font-weight: 800;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Brother 1816';
+    src: url('Brother1816-LightItalic.eot');
+    src: local('Brother 1816 Light Italic'), local('Brother1816-LightItalic'),
+        url('Brother1816-LightItalic.eot?#iefix') format('embedded-opentype'),
+        url('Brother1816-LightItalic.woff2') format('woff2'),
+        url('Brother1816-LightItalic.woff') format('woff'),
+        url('Brother1816-LightItalic.ttf') format('truetype');
+    font-weight: 300;
+    font-style: italic;
+}
+

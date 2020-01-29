@@ -2,6 +2,122 @@
 <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
 <dict>
+	<key>UIAppFonts</key>
+	<array>
+		<string>Brother1816-Regular.ttf</string>
+		<string/>
+		<string>Brother1816-Black.ttf</string>
+		<string>Brother1816-Black.woff</string>
+		<string>Brother1816-Black.woff2</string>
+		<string>Brother1816-BlackItalic.ttf</string>
+		<string>Brother1816-BlackItalic.woff</string>
+		<string>Brother1816-BlackItalic.woff2</string>
+		<string>Brother1816-Bold.ttf</string>
+		<string>Brother1816-Bold.woff</string>
+		<string>Brother1816-Bold.woff2</string>
+		<string>Brother1816-BoldItalic.ttf</string>
+		<string>Brother1816-BoldItalic.woff</string>
+		<string>Brother1816-BoldItalic.woff2</string>
+		<string>Brother1816-Book.ttf</string>
+		<string>Brother1816-Book.woff</string>
+		<string>Brother1816-Book.woff2</string>
+		<string>Brother1816-BookItalic.ttf</string>
+		<string>Brother1816-BookItalic.woff</string>
+		<string>Brother1816-BookItalic.woff2</string>
+		<string>Brother1816-ExtraBold.ttf</string>
+		<string>Brother1816-ExtraBold.woff</string>
+		<string>Brother1816-ExtraBold.woff2</string>
+		<string>Brother1816-ExtraBoldItalic.ttf</string>
+		<string>Brother1816-ExtraBoldItalic.woff</string>
+		<string>Brother1816-ExtraBoldItalic.woff2</string>
+		<string>Brother1816-Light.ttf</string>
+		<string>Brother1816-Light.woff</string>
+		<string>Brother1816-Light.woff2</string>
+		<string>Brother1816-LightItalic.ttf</string>
+		<string>Brother1816-LightItalic.woff</string>
+		<string>Brother1816-LightItalic.woff2</string>
+		<string>Brother1816-Medium.ttf</string>
+		<string>Brother1816-Medium.woff</string>
+		<string>Brother1816-Medium.woff2</string>
+		<string>Brother1816-MediumItalic.ttf</string>
+		<string>Brother1816-MediumItalic.woff</string>
+		<string>Brother1816-MediumItalic.woff2</string>
+		<string>Brother1816-Regular.woff</string>
+		<string>Brother1816-Regular.woff2</string>
+		<string>Brother1816-Regulartalic.ttf</string>
+		<string>Brother1816-Regulartalic.woff</string>
+		<string>Brother1816-Regulartalic.woff2</string>
+		<string>Brother1816-Thin.ttf</string>
+		<string>Brother1816-Thin.woff</string>
+		<string>Brother1816-Thin.woff2</string>
+		<string>Brother1816-ThinItalic.ttf</string>
+		<string>Brother1816-ThinItalic.woff</string>
+		<string>Brother1816-ThinItalic.woff2</string>
+		<string>Brother1816Printed-Black.ttf</string>
+		<string>Brother1816Printed-Black.woff</string>
+		<string>Brother1816Printed-Black.woff2</string>
+		<string>Brother1816Printed-BlackItalic.ttf</string>
+		<string>Brother1816Printed-BlackItalic.woff</string>
+		<string>Brother1816Printed-BlackItalic.woff2</string>
+		<string>Brother1816Printed-Bold.ttf</string>
+		<string>Brother1816Printed-Bold.woff</string>
+		<string>Brother1816Printed-Bold.woff2</string>
+		<string>Brother1816Printed-BoldItalic.ttf</string>
+		<string>Brother1816Printed-BoldItalic.woff</string>
+		<string>Brother1816Printed-BoldItalic.woff2</string>
+		<string>Brother1816Printed-Book.ttf</string>
+		<string>Brother1816Printed-Book.woff</string>
+		<string>Brother1816Printed-Book.woff2</string>
+		<string>Brother1816Printed-BookItalic.ttf</string>
+		<string>Brother1816Printed-BookItalic.woff</string>
+		<string>Brother1816Printed-BookItalic.woff2</string>
+		<string>Brother1816Printed-ExtraBold.ttf</string>
+		<string>Brother1816Printed-ExtraBold.woff</string>
+		<string>Brother1816Printed-ExtraBold.woff2</string>
+		<string>Brother1816Printed-ExtraBoldIta.ttf</string>
+		<string>Brother1816Printed-ExtraBoldIta.woff</string>
+		<string>Brother1816Printed-ExtraBoldIta.woff2</string>
+		<string>Brother1816Printed-Light.ttf</string>
+		<string>Brother1816Printed-Light.woff</string>
+		<string>Brother1816Printed-Light.woff2</string>
+		<string>Brother1816Printed-LightItalic.ttf</string>
+		<string>Brother1816Printed-LightItalic.woff</string>
+		<string>Brother1816Printed-LightItalic.woff2</string>
+		<string>Brother1816Printed-Medium.ttf</string>
+		<string>Brother1816Printed-Medium.woff</string>
+		<string>Brother1816Printed-Medium.woff2</string>
+		<string>Brother1816Printed-MediumItalic.ttf</string>
+		<string>Brother1816Printed-MediumItalic.woff</string>
+		<string>Brother1816Printed-MediumItalic.woff2</string>
+		<string>Brother1816Printed-Regular.ttf</string>
+		<string>Brother1816Printed-Regular.woff</string>
+		<string>Brother1816Printed-Regular.woff2</string>
+		<string>Brother1816Printed-RegularItali.ttf</string>
+		<string>Brother1816Printed-RegularItali.woff</string>
+		<string>Brother1816Printed-RegularItali.woff2</string>
+		<string>Brother1816Printed-Thin.ttf</string>
+		<string>Brother1816Printed-Thin.woff</string>
+		<string>Brother1816Printed-Thin.woff2</string>
+		<string>Brother1816Printed-ThinItalic.ttf</string>
+		<string>Brother1816Printed-ThinItalic.woff</string>
+		<string>Brother1816Printed-ThinItalic.woff2</string>
+		<string>AntDesign.ttf</string>
+		<string>Entypo.ttf</string>
+		<string>EvilIcons.ttf</string>
+		<string>Feather.ttf</string>
+		<string>FontAwesome.ttf</string>
+		<string>FontAwesome5_Brands.ttf</string>
+		<string>FontAwesome5_Regular.ttf</string>
+		<string>FontAwesome5_Solid.ttf</string>
+		<string>Fontisto.ttf</string>
+		<string>Foundation.ttf</string>
+		<string>Ionicons.ttf</string>
+		<string>MaterialCommunityIcons.ttf</string>
+		<string>MaterialIcons.ttf</string>
+		<string>Octicons.ttf</string>
+		<string>SimpleLineIcons.ttf</string>
+		<string>Zocial.ttf</string>
+	</array>
 	<key>CFBundleDevelopmentRegion</key>
 	<string>en</string>
 	<key>CFBundleDisplayName</key>
@@ -38,7 +154,7 @@
 		</dict>
 	</dict>
 	<key>NSLocationWhenInUseUsageDescription</key>
-	<string></string>
+	<string/>
 	<key>UILaunchStoryboardName</key>
 	<string>LaunchScreen</string>
 	<key>UIRequiredDeviceCapabilities</key>

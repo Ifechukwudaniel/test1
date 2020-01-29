@@ -18,8 +18,250 @@
 		2DCD954D1E0B4F2C00145EB5 /* Test1Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 00E356F21AD99517003FC87E /* Test1Tests.m */; };
 		43D2F27CA6DCA407E3033AEF /* libPods-Test1-tvOS.a in Frameworks */ = {isa = PBXBuildFile; fileRef = E781B0D7313C09B660AE548A /* libPods-Test1-tvOS.a */; };
 		9FB860864CC04454E95CE1F3 /* libPods-Test1.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 8AB943AF0A0850363BD458A2 /* libPods-Test1.a */; };
+		A1EEFA5F23E1A45E00649E56 /* Brother1816Printed-ExtraBold.woff2 in Resources */ = {isa = PBXBuildFile; fileRef = A1EEF9DD23E1A45100649E56 /* Brother1816Printed-ExtraBold.woff2 */; };
+		A1EEFA6023E1A45E00649E56 /* Brother1816-BlackItalic.eot in Resources */ = {isa = PBXBuildFile; fileRef = A1EEF9DE23E1A45200649E56 /* Brother1816-BlackItalic.eot */; };
+		A1EEFA6123E1A45E00649E56 /* Brother1816-Black.woff in Resources */ = {isa = PBXBuildFile; fileRef = A1EEF9DF23E1A45200649E56 /* Brother1816-Black.woff */; };
+		A1EEFA6223E1A45E00649E56 /* Brother1816Printed-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = A1EEF9E023E1A45200649E56 /* Brother1816Printed-Regular.ttf */; };
+		A1EEFA6323E1A45E00649E56 /* Brother1816Printed-Black.woff2 in Resources */ = {isa = PBXBuildFile; fileRef = A1EEF9E123E1A45200649E56 /* Brother1816Printed-Black.woff2 */; };
+		A1EEFA6423E1A45E00649E56 /* Brother1816-ExtraBoldItalic.woff2 in Resources */ = {isa = PBXBuildFile; fileRef = A1EEF9E223E1A45200649E56 /* Brother1816-ExtraBoldItalic.woff2 */; };
+		A1EEFA6523E1A45E00649E56 /* Brother1816Printed-ExtraBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = A1EEF9E323E1A45200649E56 /* Brother1816Printed-ExtraBold.ttf */; };
+		A1EEFA6623E1A45E00649E56 /* Brother1816Printed-MediumItalic.woff2 in Resources */ = {isa = PBXBuildFile; fileRef = A1EEF9E423E1A45200649E56 /* Brother1816Printed-MediumItalic.woff2 */; };
+		A1EEFA6723E1A45E00649E56 /* Brother1816Printed-Black.eot in Resources */ = {isa = PBXBuildFile; fileRef = A1EEF9E523E1A45200649E56 /* Brother1816Printed-Black.eot */; };
+		A1EEFA6823E1A45E00649E56 /* Brother1816-Thin.woff in Resources */ = {isa = PBXBuildFile; fileRef = A1EEF9E623E1A45200649E56 /* Brother1816-Thin.woff */; };
+		A1EEFA6923E1A45E00649E56 /* Brother1816Printed-Thin.woff in Resources */ = {isa = PBXBuildFile; fileRef = A1EEF9E723E1A45200649E56 /* Brother1816Printed-Thin.woff */; };
+		A1EEFA6A23E1A45E00649E56 /* Brother1816-ThinItalic.eot in Resources */ = {isa = PBXBuildFile; fileRef = A1EEF9E823E1A45200649E56 /* Brother1816-ThinItalic.eot */; };
+		A1EEFA6B23E1A45E00649E56 /* Brother1816-Bold.woff2 in Resources */ = {isa = PBXBuildFile; fileRef = A1EEF9E923E1A45200649E56 /* Brother1816-Bold.woff2 */; };
+		A1EEFA6C23E1A45E00649E56 /* Brother1816-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = A1EEF9EA23E1A45200649E56 /* Brother1816-Regular.ttf */; };
+		A1EEFA6D23E1A45E00649E56 /* Brother1816-Light.woff2 in Resources */ = {isa = PBXBuildFile; fileRef = A1EEF9EB23E1A45200649E56 /* Brother1816-Light.woff2 */; };
+		A1EEFA6E23E1A45E00649E56 /* Brother1816-Book.woff in Resources */ = {isa = PBXBuildFile; fileRef = A1EEF9EC23E1A45200649E56 /* Brother1816-Book.woff */; };
+		A1EEFA6F23E1A45E00649E56 /* Brother1816Printed-Bold.woff2 in Resources */ = {isa = PBXBuildFile; fileRef = A1EEF9ED23E1A45200649E56 /* Brother1816Printed-Bold.woff2 */; };
+		A1EEFA7023E1A45E00649E56 /* Brother1816-BoldItalic.woff2 in Resources */ = {isa = PBXBuildFile; fileRef = A1EEF9EE23E1A45300649E56 /* Brother1816-BoldItalic.woff2 */; };
+		A1EEFA7123E1A45E00649E56 /* Brother1816-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = A1EEF9EF23E1A45300649E56 /* Brother1816-Light.ttf */; };
+		A1EEFA7223E1A45E00649E56 /* Brother1816-ExtraBoldItalic.woff in Resources */ = {isa = PBXBuildFile; fileRef = A1EEF9F023E1A45300649E56 /* Brother1816-ExtraBoldItalic.woff */; };
+		A1EEFA7323E1A45E00649E56 /* Brother1816Printed-Regular.eot in Resources */ = {isa = PBXBuildFile; fileRef = A1EEF9F123E1A45300649E56 /* Brother1816Printed-Regular.eot */; };
+		A1EEFA7423E1A45E00649E56 /* Brother1816Printed-Regular.woff in Resources */ = {isa = PBXBuildFile; fileRef = A1EEF9F223E1A45300649E56 /* Brother1816Printed-Regular.woff */; };
+		A1EEFA7523E1A45E00649E56 /* Brother1816Printed-ExtraBoldIta.eot in Resources */ = {isa = PBXBuildFile; fileRef = A1EEF9F323E1A45300649E56 /* Brother1816Printed-ExtraBoldIta.eot */; };
+		A1EEFA7623E1A45E00649E56 /* Brother1816Printed-Medium.woff in Resources */ = {isa = PBXBuildFile; fileRef = A1EEF9F423E1A45300649E56 /* Brother1816Printed-Medium.woff */; };
+		A1EEFA7723E1A45E00649E56 /* Brother1816-BoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = A1EEF9F523E1A45300649E56 /* Brother1816-BoldItalic.ttf */; };
+		A1EEFA7823E1A45E00649E56 /* Brother1816Printed-Thin.ttf in Resources */ = {isa = PBXBuildFile; fileRef = A1EEF9F623E1A45300649E56 /* Brother1816Printed-Thin.ttf */; };
+		A1EEFA7923E1A45E00649E56 /* Brother1816-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = A1EEF9F723E1A45300649E56 /* Brother1816-Medium.ttf */; };
+		A1EEFA7A23E1A45E00649E56 /* demo.html in Resources */ = {isa = PBXBuildFile; fileRef = A1EEF9F823E1A45400649E56 /* demo.html */; };
+		A1EEFA7B23E1A45E00649E56 /* Brother1816Printed-BlackItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = A1EEF9F923E1A45400649E56 /* Brother1816Printed-BlackItalic.ttf */; };
+		A1EEFA7C23E1A45E00649E56 /* Brother1816-Light.eot in Resources */ = {isa = PBXBuildFile; fileRef = A1EEF9FA23E1A45400649E56 /* Brother1816-Light.eot */; };
+		A1EEFA7D23E1A45E00649E56 /* Brother1816-BoldItalic.eot in Resources */ = {isa = PBXBuildFile; fileRef = A1EEF9FB23E1A45400649E56 /* Brother1816-BoldItalic.eot */; };
+		A1EEFA7E23E1A45E00649E56 /* Brother1816Printed-LightItalic.woff in Resources */ = {isa = PBXBuildFile; fileRef = A1EEF9FC23E1A45400649E56 /* Brother1816Printed-LightItalic.woff */; };
+		A1EEFA7F23E1A45E00649E56 /* Brother1816-Regular.woff in Resources */ = {isa = PBXBuildFile; fileRef = A1EEF9FD23E1A45400649E56 /* Brother1816-Regular.woff */; };
+		A1EEFA8023E1A45E00649E56 /* Brother1816-ExtraBold.woff in Resources */ = {isa = PBXBuildFile; fileRef = A1EEF9FE23E1A45400649E56 /* Brother1816-ExtraBold.woff */; };
+		A1EEFA8123E1A45E00649E56 /* Brother1816-Regular.woff2 in Resources */ = {isa = PBXBuildFile; fileRef = A1EEF9FF23E1A45400649E56 /* Brother1816-Regular.woff2 */; };
+		A1EEFA8223E1A45E00649E56 /* Brother1816Printed-LightItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = A1EEFA0023E1A45400649E56 /* Brother1816Printed-LightItalic.ttf */; };
+		A1EEFA8323E1A45E00649E56 /* Brother1816Printed-ThinItalic.woff in Resources */ = {isa = PBXBuildFile; fileRef = A1EEFA0123E1A45400649E56 /* Brother1816Printed-ThinItalic.woff */; };
+		A1EEFA8423E1A45E00649E56 /* Brother1816Printed-Black.woff in Resources */ = {isa = PBXBuildFile; fileRef = A1EEFA0223E1A45500649E56 /* Brother1816Printed-Black.woff */; };
+		A1EEFA8523E1A45E00649E56 /* Brother1816-Thin.ttf in Resources */ = {isa = PBXBuildFile; fileRef = A1EEFA0323E1A45500649E56 /* Brother1816-Thin.ttf */; };
+		A1EEFA8623E1A45E00649E56 /* Brother1816-LightItalic.eot in Resources */ = {isa = PBXBuildFile; fileRef = A1EEFA0423E1A45500649E56 /* Brother1816-LightItalic.eot */; };
+		A1EEFA8723E1A45E00649E56 /* Brother1816-BookItalic.eot in Resources */ = {isa = PBXBuildFile; fileRef = A1EEFA0523E1A45500649E56 /* Brother1816-BookItalic.eot */; };
+		A1EEFA8823E1A45E00649E56 /* Brother1816Printed-ExtraBoldIta.ttf in Resources */ = {isa = PBXBuildFile; fileRef = A1EEFA0623E1A45500649E56 /* Brother1816Printed-ExtraBoldIta.ttf */; };
+		A1EEFA8923E1A45E00649E56 /* Brother1816Printed-MediumItalic.eot in Resources */ = {isa = PBXBuildFile; fileRef = A1EEFA0723E1A45500649E56 /* Brother1816Printed-MediumItalic.eot */; };
+		A1EEFA8A23E1A45E00649E56 /* Brother1816-Black.ttf in Resources */ = {isa = PBXBuildFile; fileRef = A1EEFA0823E1A45500649E56 /* Brother1816-Black.ttf */; };
+		A1EEFA8B23E1A45E00649E56 /* Brother1816-Bold.eot in Resources */ = {isa = PBXBuildFile; fileRef = A1EEFA0923E1A45500649E56 /* Brother1816-Bold.eot */; };
+		A1EEFA8C23E1A45E00649E56 /* Brother1816Printed-Book.woff in Resources */ = {isa = PBXBuildFile; fileRef = A1EEFA0A23E1A45500649E56 /* Brother1816Printed-Book.woff */; };
+		A1EEFA8D23E1A45E00649E56 /* Brother1816Printed-MediumItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = A1EEFA0B23E1A45600649E56 /* Brother1816Printed-MediumItalic.ttf */; };
+		A1EEFA8E23E1A45E00649E56 /* Brother1816-Black.eot in Resources */ = {isa = PBXBuildFile; fileRef = A1EEFA0C23E1A45600649E56 /* Brother1816-Black.eot */; };
+		A1EEFA8F23E1A45E00649E56 /* Brother1816Printed-BoldItalic.eot in Resources */ = {isa = PBXBuildFile; fileRef = A1EEFA0D23E1A45600649E56 /* Brother1816Printed-BoldItalic.eot */; };
+		A1EEFA9023E1A45E00649E56 /* Brother1816Printed-BoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = A1EEFA0E23E1A45600649E56 /* Brother1816Printed-BoldItalic.ttf */; };
+		A1EEFA9123E1A45E00649E56 /* Brother1816-Medium.woff in Resources */ = {isa = PBXBuildFile; fileRef = A1EEFA0F23E1A45600649E56 /* Brother1816-Medium.woff */; };
+		A1EEFA9223E1A45E00649E56 /* Brother1816Printed-BoldItalic.woff2 in Resources */ = {isa = PBXBuildFile; fileRef = A1EEFA1023E1A45600649E56 /* Brother1816Printed-BoldItalic.woff2 */; };
+		A1EEFA9323E1A45E00649E56 /* Brother1816Printed-LightItalic.eot in Resources */ = {isa = PBXBuildFile; fileRef = A1EEFA1123E1A45600649E56 /* Brother1816Printed-LightItalic.eot */; };
+		A1EEFA9423E1A45E00649E56 /* Brother1816-LightItalic.woff2 in Resources */ = {isa = PBXBuildFile; fileRef = A1EEFA1223E1A45600649E56 /* Brother1816-LightItalic.woff2 */; };
+		A1EEFA9523E1A45E00649E56 /* Brother1816-MediumItalic.eot in Resources */ = {isa = PBXBuildFile; fileRef = A1EEFA1323E1A45600649E56 /* Brother1816-MediumItalic.eot */; };
+		A1EEFA9623E1A45E00649E56 /* Brother1816Printed-ExtraBoldIta.woff2 in Resources */ = {isa = PBXBuildFile; fileRef = A1EEFA1423E1A45600649E56 /* Brother1816Printed-ExtraBoldIta.woff2 */; };
+		A1EEFA9723E1A45E00649E56 /* Brother1816Printed-BookItalic.eot in Resources */ = {isa = PBXBuildFile; fileRef = A1EEFA1523E1A45700649E56 /* Brother1816Printed-BookItalic.eot */; };
+		A1EEFA9823E1A45E00649E56 /* Brother1816-Book.eot in Resources */ = {isa = PBXBuildFile; fileRef = A1EEFA1623E1A45700649E56 /* Brother1816-Book.eot */; };
+		A1EEFA9923E1A45E00649E56 /* Brother1816Printed-BookItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = A1EEFA1723E1A45700649E56 /* Brother1816Printed-BookItalic.ttf */; };
+		A1EEFA9A23E1A45E00649E56 /* Brother1816-Medium.eot in Resources */ = {isa = PBXBuildFile; fileRef = A1EEFA1823E1A45700649E56 /* Brother1816-Medium.eot */; };
+		A1EEFA9B23E1A45E00649E56 /* Brother1816Printed-BlackItalic.woff2 in Resources */ = {isa = PBXBuildFile; fileRef = A1EEFA1923E1A45700649E56 /* Brother1816Printed-BlackItalic.woff2 */; };
+		A1EEFA9C23E1A45E00649E56 /* Brother1816Printed-ThinItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = A1EEFA1A23E1A45700649E56 /* Brother1816Printed-ThinItalic.ttf */; };
+		A1EEFA9D23E1A45E00649E56 /* Brother1816-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = A1EEFA1B23E1A45700649E56 /* Brother1816-Bold.ttf */; };
+		A1EEFA9E23E1A45E00649E56 /* Brother1816Printed-ThinItalic.eot in Resources */ = {isa = PBXBuildFile; fileRef = A1EEFA1C23E1A45700649E56 /* Brother1816Printed-ThinItalic.eot */; };
+		A1EEFA9F23E1A45E00649E56 /* Brother1816Printed-BlackItalic.woff in Resources */ = {isa = PBXBuildFile; fileRef = A1EEFA1D23E1A45700649E56 /* Brother1816Printed-BlackItalic.woff */; };
+		A1EEFAA023E1A45E00649E56 /* Brother1816-Bold.woff in Resources */ = {isa = PBXBuildFile; fileRef = A1EEFA1E23E1A45800649E56 /* Brother1816-Bold.woff */; };
+		A1EEFAA123E1A45E00649E56 /* Brother1816-BookItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = A1EEFA1F23E1A45800649E56 /* Brother1816-BookItalic.ttf */; };
+		A1EEFAA223E1A45E00649E56 /* Brother1816-Medium.woff2 in Resources */ = {isa = PBXBuildFile; fileRef = A1EEFA2023E1A45800649E56 /* Brother1816-Medium.woff2 */; };
+		A1EEFAA323E1A45E00649E56 /* Brother1816-Book.woff2 in Resources */ = {isa = PBXBuildFile; fileRef = A1EEFA2123E1A45800649E56 /* Brother1816-Book.woff2 */; };
+		A1EEFAA423E1A45E00649E56 /* Brother1816Printed-Bold.woff in Resources */ = {isa = PBXBuildFile; fileRef = A1EEFA2223E1A45800649E56 /* Brother1816Printed-Bold.woff */; };
+		A1EEFAA523E1A45E00649E56 /* Brother1816-MediumItalic.woff in Resources */ = {isa = PBXBuildFile; fileRef = A1EEFA2323E1A45800649E56 /* Brother1816-MediumItalic.woff */; };
+		A1EEFAA623E1A45E00649E56 /* Brother1816-BlackItalic.woff in Resources */ = {isa = PBXBuildFile; fileRef = A1EEFA2423E1A45800649E56 /* Brother1816-BlackItalic.woff */; };
+		A1EEFAA723E1A45E00649E56 /* Brother1816Printed-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = A1EEFA2523E1A45800649E56 /* Brother1816Printed-Light.ttf */; };
+		A1EEFAA823E1A45E00649E56 /* Brother1816Printed-Book.eot in Resources */ = {isa = PBXBuildFile; fileRef = A1EEFA2623E1A45800649E56 /* Brother1816Printed-Book.eot */; };
+		A1EEFAA923E1A45E00649E56 /* Brother1816Printed-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = A1EEFA2723E1A45800649E56 /* Brother1816Printed-Bold.ttf */; };
+		A1EEFAAA23E1A45E00649E56 /* Brother1816Printed-Medium.eot in Resources */ = {isa = PBXBuildFile; fileRef = A1EEFA2823E1A45800649E56 /* Brother1816Printed-Medium.eot */; };
+		A1EEFAAB23E1A45E00649E56 /* Brother1816Printed-Light.woff2 in Resources */ = {isa = PBXBuildFile; fileRef = A1EEFA2923E1A45900649E56 /* Brother1816Printed-Light.woff2 */; };
+		A1EEFAAC23E1A45E00649E56 /* Brother1816Printed-BookItalic.woff2 in Resources */ = {isa = PBXBuildFile; fileRef = A1EEFA2A23E1A45900649E56 /* Brother1816Printed-BookItalic.woff2 */; };
+		A1EEFAAD23E1A45E00649E56 /* Brother1816-Regulartalic.woff in Resources */ = {isa = PBXBuildFile; fileRef = A1EEFA2B23E1A45900649E56 /* Brother1816-Regulartalic.woff */; };
+		A1EEFAAE23E1A45E00649E56 /* Brother1816-BookItalic.woff2 in Resources */ = {isa = PBXBuildFile; fileRef = A1EEFA2C23E1A45900649E56 /* Brother1816-BookItalic.woff2 */; };
+		A1EEFAAF23E1A45E00649E56 /* Brother1816Printed-LightItalic.woff2 in Resources */ = {isa = PBXBuildFile; fileRef = A1EEFA2D23E1A45900649E56 /* Brother1816Printed-LightItalic.woff2 */; };
+		A1EEFAB023E1A45E00649E56 /* Brother1816Printed-ExtraBold.eot in Resources */ = {isa = PBXBuildFile; fileRef = A1EEFA2E23E1A45900649E56 /* Brother1816Printed-ExtraBold.eot */; };
+		A1EEFAB123E1A45E00649E56 /* Brother1816-ExtraBold.eot in Resources */ = {isa = PBXBuildFile; fileRef = A1EEFA2F23E1A45900649E56 /* Brother1816-ExtraBold.eot */; };
+		A1EEFAB223E1A45E00649E56 /* Brother1816-ExtraBoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = A1EEFA3023E1A45900649E56 /* Brother1816-ExtraBoldItalic.ttf */; };
+		A1EEFAB323E1A45E00649E56 /* Brother1816-ExtraBoldItalic.eot in Resources */ = {isa = PBXBuildFile; fileRef = A1EEFA3123E1A45900649E56 /* Brother1816-ExtraBoldItalic.eot */; };
+		A1EEFAB423E1A45E00649E56 /* Brother1816-ThinItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = A1EEFA3223E1A45900649E56 /* Brother1816-ThinItalic.ttf */; };
+		A1EEFAB523E1A45E00649E56 /* Brother1816-ExtraBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = A1EEFA3323E1A45A00649E56 /* Brother1816-ExtraBold.ttf */; };
+		A1EEFAB623E1A45E00649E56 /* Brother1816-Book.ttf in Resources */ = {isa = PBXBuildFile; fileRef = A1EEFA3423E1A45A00649E56 /* Brother1816-Book.ttf */; };
+		A1EEFAB723E1A45E00649E56 /* Brother1816Printed-BoldItalic.woff in Resources */ = {isa = PBXBuildFile; fileRef = A1EEFA3523E1A45A00649E56 /* Brother1816Printed-BoldItalic.woff */; };
+		A1EEFAB823E1A45E00649E56 /* Brother1816-MediumItalic.woff2 in Resources */ = {isa = PBXBuildFile; fileRef = A1EEFA3623E1A45A00649E56 /* Brother1816-MediumItalic.woff2 */; };
+		A1EEFAB923E1A45E00649E56 /* Brother1816-Regular.eot in Resources */ = {isa = PBXBuildFile; fileRef = A1EEFA3723E1A45A00649E56 /* Brother1816-Regular.eot */; };
+		A1EEFABA23E1A45E00649E56 /* Brother1816Printed-Light.eot in Resources */ = {isa = PBXBuildFile; fileRef = A1EEFA3823E1A45A00649E56 /* Brother1816Printed-Light.eot */; };
+		A1EEFABB23E1A45E00649E56 /* Brother1816-Regulartalic.eot in Resources */ = {isa = PBXBuildFile; fileRef = A1EEFA3923E1A45A00649E56 /* Brother1816-Regulartalic.eot */; };
+		A1EEFABC23E1A45E00649E56 /* Brother1816Printed-Thin.woff2 in Resources */ = {isa = PBXBuildFile; fileRef = A1EEFA3A23E1A45A00649E56 /* Brother1816Printed-Thin.woff2 */; };
+		A1EEFABD23E1A45E00649E56 /* Brother1816Printed-ExtraBold.woff in Resources */ = {isa = PBXBuildFile; fileRef = A1EEFA3B23E1A45A00649E56 /* Brother1816Printed-ExtraBold.woff */; };
+		A1EEFABE23E1A45E00649E56 /* Brother1816Printed-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = A1EEFA3C23E1A45A00649E56 /* Brother1816Printed-Medium.ttf */; };
+		A1EEFABF23E1A45E00649E56 /* Brother1816Printed-Bold.eot in Resources */ = {isa = PBXBuildFile; fileRef = A1EEFA3D23E1A45A00649E56 /* Brother1816Printed-Bold.eot */; };
+		A1EEFAC023E1A45E00649E56 /* Brother1816Printed-Medium.woff2 in Resources */ = {isa = PBXBuildFile; fileRef = A1EEFA3E23E1A45B00649E56 /* Brother1816Printed-Medium.woff2 */; };
+		A1EEFAC123E1A45E00649E56 /* Brother1816-Regulartalic.woff2 in Resources */ = {isa = PBXBuildFile; fileRef = A1EEFA3F23E1A45B00649E56 /* Brother1816-Regulartalic.woff2 */; };
+		A1EEFAC223E1A45E00649E56 /* Brother1816-ExtraBold.woff2 in Resources */ = {isa = PBXBuildFile; fileRef = A1EEFA4023E1A45B00649E56 /* Brother1816-ExtraBold.woff2 */; };
+		A1EEFAC323E1A45E00649E56 /* Brother1816-BlackItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = A1EEFA4123E1A45B00649E56 /* Brother1816-BlackItalic.ttf */; };
+		A1EEFAC423E1A45E00649E56 /* Brother1816-ThinItalic.woff2 in Resources */ = {isa = PBXBuildFile; fileRef = A1EEFA4223E1A45B00649E56 /* Brother1816-ThinItalic.woff2 */; };
+		A1EEFAC523E1A45E00649E56 /* stylesheet.css in Resources */ = {isa = PBXBuildFile; fileRef = A1EEFA4323E1A45B00649E56 /* stylesheet.css */; };
+		A1EEFAC623E1A45E00649E56 /* Brother1816-Black.woff2 in Resources */ = {isa = PBXBuildFile; fileRef = A1EEFA4423E1A45B00649E56 /* Brother1816-Black.woff2 */; };
+		A1EEFAC723E1A45E00649E56 /* Brother1816Printed-Book.ttf in Resources */ = {isa = PBXBuildFile; fileRef = A1EEFA4523E1A45B00649E56 /* Brother1816Printed-Book.ttf */; };
+		A1EEFAC823E1A45E00649E56 /* Brother1816-LightItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = A1EEFA4623E1A45B00649E56 /* Brother1816-LightItalic.ttf */; };
+		A1EEFAC923E1A45E00649E56 /* Brother1816Printed-ThinItalic.woff2 in Resources */ = {isa = PBXBuildFile; fileRef = A1EEFA4723E1A45B00649E56 /* Brother1816Printed-ThinItalic.woff2 */; };
+		A1EEFACA23E1A45E00649E56 /* Brother1816Printed-RegularItali.woff2 in Resources */ = {isa = PBXBuildFile; fileRef = A1EEFA4823E1A45C00649E56 /* Brother1816Printed-RegularItali.woff2 */; };
+		A1EEFACB23E1A45E00649E56 /* Brother1816Printed-BookItalic.woff in Resources */ = {isa = PBXBuildFile; fileRef = A1EEFA4923E1A45C00649E56 /* Brother1816Printed-BookItalic.woff */; };
+		A1EEFACC23E1A45E00649E56 /* Brother1816Printed-Black.ttf in Resources */ = {isa = PBXBuildFile; fileRef = A1EEFA4A23E1A45C00649E56 /* Brother1816Printed-Black.ttf */; };
+		A1EEFACD23E1A45E00649E56 /* Brother1816-MediumItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = A1EEFA4B23E1A45C00649E56 /* Brother1816-MediumItalic.ttf */; };
+		A1EEFACE23E1A45E00649E56 /* Brother1816Printed-ExtraBoldIta.woff in Resources */ = {isa = PBXBuildFile; fileRef = A1EEFA4C23E1A45C00649E56 /* Brother1816Printed-ExtraBoldIta.woff */; };
+		A1EEFACF23E1A45E00649E56 /* Brother1816Printed-Thin.eot in Resources */ = {isa = PBXBuildFile; fileRef = A1EEFA4D23E1A45C00649E56 /* Brother1816Printed-Thin.eot */; };
+		A1EEFAD023E1A45E00649E56 /* Brother1816-Thin.woff2 in Resources */ = {isa = PBXBuildFile; fileRef = A1EEFA4E23E1A45C00649E56 /* Brother1816-Thin.woff2 */; };
+		A1EEFAD123E1A45E00649E56 /* Brother1816Printed-Regular.woff2 in Resources */ = {isa = PBXBuildFile; fileRef = A1EEFA4F23E1A45C00649E56 /* Brother1816Printed-Regular.woff2 */; };
+		A1EEFAD223E1A45E00649E56 /* Brother1816-BookItalic.woff in Resources */ = {isa = PBXBuildFile; fileRef = A1EEFA5023E1A45C00649E56 /* Brother1816-BookItalic.woff */; };
+		A1EEFAD323E1A45E00649E56 /* Brother1816-Light.woff in Resources */ = {isa = PBXBuildFile; fileRef = A1EEFA5123E1A45C00649E56 /* Brother1816-Light.woff */; };
+		A1EEFAD423E1A45E00649E56 /* Brother1816-LightItalic.woff in Resources */ = {isa = PBXBuildFile; fileRef = A1EEFA5223E1A45D00649E56 /* Brother1816-LightItalic.woff */; };
+		A1EEFAD523E1A45E00649E56 /* Brother1816-BoldItalic.woff in Resources */ = {isa = PBXBuildFile; fileRef = A1EEFA5323E1A45D00649E56 /* Brother1816-BoldItalic.woff */; };
+		A1EEFAD623E1A45E00649E56 /* Brother1816Printed-Book.woff2 in Resources */ = {isa = PBXBuildFile; fileRef = A1EEFA5423E1A45D00649E56 /* Brother1816Printed-Book.woff2 */; };
+		A1EEFAD723E1A45E00649E56 /* Brother1816-Thin.eot in Resources */ = {isa = PBXBuildFile; fileRef = A1EEFA5523E1A45D00649E56 /* Brother1816-Thin.eot */; };
+		A1EEFAD823E1A45E00649E56 /* Brother1816-ThinItalic.woff in Resources */ = {isa = PBXBuildFile; fileRef = A1EEFA5623E1A45D00649E56 /* Brother1816-ThinItalic.woff */; };
+		A1EEFAD923E1A45E00649E56 /* Brother1816-Regulartalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = A1EEFA5723E1A45D00649E56 /* Brother1816-Regulartalic.ttf */; };
+		A1EEFADA23E1A45E00649E56 /* Brother1816Printed-Light.woff in Resources */ = {isa = PBXBuildFile; fileRef = A1EEFA5823E1A45D00649E56 /* Brother1816Printed-Light.woff */; };
+		A1EEFADB23E1A45E00649E56 /* Brother1816Printed-RegularItali.woff in Resources */ = {isa = PBXBuildFile; fileRef = A1EEFA5923E1A45D00649E56 /* Brother1816Printed-RegularItali.woff */; };
+		A1EEFADC23E1A45E00649E56 /* Brother1816Printed-BlackItalic.eot in Resources */ = {isa = PBXBuildFile; fileRef = A1EEFA5A23E1A45D00649E56 /* Brother1816Printed-BlackItalic.eot */; };
+		A1EEFADD23E1A45E00649E56 /* Brother1816-BlackItalic.woff2 in Resources */ = {isa = PBXBuildFile; fileRef = A1EEFA5B23E1A45D00649E56 /* Brother1816-BlackItalic.woff2 */; };
+		A1EEFADE23E1A45E00649E56 /* Brother1816Printed-MediumItalic.woff in Resources */ = {isa = PBXBuildFile; fileRef = A1EEFA5C23E1A45D00649E56 /* Brother1816Printed-MediumItalic.woff */; };
+		A1EEFADF23E1A45E00649E56 /* Brother1816Printed-RegularItali.eot in Resources */ = {isa = PBXBuildFile; fileRef = A1EEFA5D23E1A45E00649E56 /* Brother1816Printed-RegularItali.eot */; };
+		A1EEFAE023E1A45E00649E56 /* Brother1816Printed-RegularItali.ttf in Resources */ = {isa = PBXBuildFile; fileRef = A1EEFA5E23E1A45E00649E56 /* Brother1816Printed-RegularItali.ttf */; };
 		E021B235B50CA7C266121765 /* libPods-Test1Tests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = FFF2AA50518F72323C5A448C /* libPods-Test1Tests.a */; };
 		FE238243C1B9D5068936E407 /* libPods-Test1-tvOSTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 2F0FAD653F7B52B8E15F3BD9 /* libPods-Test1-tvOSTests.a */; };
+		A862198025C34DC79A9C7FD1 /* Brother1816-Black.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 5CB8137651FB4B2A94D1960E /* Brother1816-Black.ttf */; };
+		E623448C678F4C44BAB03238 /* Brother1816-Black.woff in Resources */ = {isa = PBXBuildFile; fileRef = 1A534BE498FC48778A439E1F /* Brother1816-Black.woff */; };
+		422D7ED36C0E433B99296636 /* Brother1816-Black.woff2 in Resources */ = {isa = PBXBuildFile; fileRef = 27CC6821CB764265AB777B51 /* Brother1816-Black.woff2 */; };
+		18FB5287AEC24DF1BC379A9C /* Brother1816-BlackItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 91DC06C843124B56B331429C /* Brother1816-BlackItalic.ttf */; };
+		D79F9531892048349AD81440 /* Brother1816-BlackItalic.woff in Resources */ = {isa = PBXBuildFile; fileRef = 92730C4BA3BC4302BE94368B /* Brother1816-BlackItalic.woff */; };
+		93AD02567D6A453D8B608140 /* Brother1816-BlackItalic.woff2 in Resources */ = {isa = PBXBuildFile; fileRef = 10AB981EA1E7468E95465C41 /* Brother1816-BlackItalic.woff2 */; };
+		D4DAEECA61DE4910883043EC /* Brother1816-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 555DF356CE26466384B9565C /* Brother1816-Bold.ttf */; };
+		FA1693CDADEA44BCACC4232D /* Brother1816-Bold.woff in Resources */ = {isa = PBXBuildFile; fileRef = 97B3FA96C15442A69744B03C /* Brother1816-Bold.woff */; };
+		42A8DCBA8C5842BA965EFC06 /* Brother1816-Bold.woff2 in Resources */ = {isa = PBXBuildFile; fileRef = 7F09C697383449C2B439C5FA /* Brother1816-Bold.woff2 */; };
+		B660B80E23B8463085578F43 /* Brother1816-BoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 114A10DE65474FEEBA275B4A /* Brother1816-BoldItalic.ttf */; };
+		0F80275575CD48FC92B7AB7A /* Brother1816-BoldItalic.woff in Resources */ = {isa = PBXBuildFile; fileRef = 882D887F3269413B9B164297 /* Brother1816-BoldItalic.woff */; };
+		D5CD07092E62408D89C53A2A /* Brother1816-BoldItalic.woff2 in Resources */ = {isa = PBXBuildFile; fileRef = F3EB3BC8D7064D84B75929EE /* Brother1816-BoldItalic.woff2 */; };
+		BB3DF888BBE84F2795692621 /* Brother1816-Book.ttf in Resources */ = {isa = PBXBuildFile; fileRef = BC3A76D1659D4697BC2D90FD /* Brother1816-Book.ttf */; };
+		59D204A7936E477BB36D2DF6 /* Brother1816-Book.woff in Resources */ = {isa = PBXBuildFile; fileRef = DFCE52BEFBB34D15B710210D /* Brother1816-Book.woff */; };
+		2BA904D1309A4C39BDEF247C /* Brother1816-Book.woff2 in Resources */ = {isa = PBXBuildFile; fileRef = 9B73D86397F7469A9D41D7B2 /* Brother1816-Book.woff2 */; };
+		CD153F43450A4BC8BDBED8EA /* Brother1816-BookItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 7C9D5F125AA545C58ECD86B6 /* Brother1816-BookItalic.ttf */; };
+		B3F55D7546434026A9DAD0EF /* Brother1816-BookItalic.woff in Resources */ = {isa = PBXBuildFile; fileRef = BC4EA874490147FDAA86FE01 /* Brother1816-BookItalic.woff */; };
+		D50F3ABB5E744BE287E1DE88 /* Brother1816-BookItalic.woff2 in Resources */ = {isa = PBXBuildFile; fileRef = 52202DFD7CC34C37AB53407D /* Brother1816-BookItalic.woff2 */; };
+		159A01646AF045619FAC7E06 /* Brother1816-ExtraBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = A56E2D1D1CA942E1B0E38E33 /* Brother1816-ExtraBold.ttf */; };
+		805A6B6951E044B6A6E1DB7F /* Brother1816-ExtraBold.woff in Resources */ = {isa = PBXBuildFile; fileRef = 2447F396789E41AE8A8435BE /* Brother1816-ExtraBold.woff */; };
+		C627EE9455924DBDA9274D29 /* Brother1816-ExtraBold.woff2 in Resources */ = {isa = PBXBuildFile; fileRef = 70BF4F8A4C5943119DA15621 /* Brother1816-ExtraBold.woff2 */; };
+		0D9B78769AB047218578E405 /* Brother1816-ExtraBoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 42DA379148354763B2AA91FB /* Brother1816-ExtraBoldItalic.ttf */; };
+		43D8AEDFC472464CB6C69EE1 /* Brother1816-ExtraBoldItalic.woff in Resources */ = {isa = PBXBuildFile; fileRef = A52B47D40D83416399A1D426 /* Brother1816-ExtraBoldItalic.woff */; };
+		89FCEE528CE14E7997738967 /* Brother1816-ExtraBoldItalic.woff2 in Resources */ = {isa = PBXBuildFile; fileRef = 0715BF5ED9BF4BB9B1B2F443 /* Brother1816-ExtraBoldItalic.woff2 */; };
+		5035CB83F8D140B883A6F237 /* Brother1816-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 9A08C83A3B5E4A28825129E2 /* Brother1816-Light.ttf */; };
+		D53723521DC7452B9A66B28F /* Brother1816-Light.woff in Resources */ = {isa = PBXBuildFile; fileRef = 6B7E3D46DD4B4D64B97D05DD /* Brother1816-Light.woff */; };
+		C40E799D983D4EA3A294F1D3 /* Brother1816-Light.woff2 in Resources */ = {isa = PBXBuildFile; fileRef = AB5F07B575C34025B7E9C190 /* Brother1816-Light.woff2 */; };
+		61CBB6CE20F44F01822F7EFE /* Brother1816-LightItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 697604E46F814FF5A2A1C58D /* Brother1816-LightItalic.ttf */; };
+		67080EAE75F545279DCE08E2 /* Brother1816-LightItalic.woff in Resources */ = {isa = PBXBuildFile; fileRef = 87EDEA212753431BB27B5E92 /* Brother1816-LightItalic.woff */; };
+		3CEA7281C97B4650B7861DB4 /* Brother1816-LightItalic.woff2 in Resources */ = {isa = PBXBuildFile; fileRef = 01BD101E31B846608F18CA83 /* Brother1816-LightItalic.woff2 */; };
+		4BE1B1E6D8224E56B3969EB5 /* Brother1816-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 8741BB8A57594F2586A7F862 /* Brother1816-Medium.ttf */; };
+		0F544E8C46BB410E98B20289 /* Brother1816-Medium.woff in Resources */ = {isa = PBXBuildFile; fileRef = 61DAA7E451374D15BA90F618 /* Brother1816-Medium.woff */; };
+		A61779C78F374D6C879A60F1 /* Brother1816-Medium.woff2 in Resources */ = {isa = PBXBuildFile; fileRef = B3F1A1C9652A4EECBF1006B8 /* Brother1816-Medium.woff2 */; };
+		CEFD28A804AA41F0A6BBB0DF /* Brother1816-MediumItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = EEEC839B263F4FA686D74386 /* Brother1816-MediumItalic.ttf */; };
+		7BEAC575160E4CF4A5906C38 /* Brother1816-MediumItalic.woff in Resources */ = {isa = PBXBuildFile; fileRef = 4B8408B74DD5481E8B3BF0C8 /* Brother1816-MediumItalic.woff */; };
+		31FC642544B8410EBCDD0E11 /* Brother1816-MediumItalic.woff2 in Resources */ = {isa = PBXBuildFile; fileRef = FA7C2910E4574BD5929938AD /* Brother1816-MediumItalic.woff2 */; };
+		69D8390A2EC64A5FBE7F06DC /* Brother1816-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 9815B5558EA04A5F8C91476B /* Brother1816-Regular.ttf */; };
+		BDE987CF6B1E40879A267F64 /* Brother1816-Regular.woff in Resources */ = {isa = PBXBuildFile; fileRef = 146C12366DC54F608801DD47 /* Brother1816-Regular.woff */; };
+		328EDC6A860B4006ADA3CA27 /* Brother1816-Regular.woff2 in Resources */ = {isa = PBXBuildFile; fileRef = 39B8168F65204BBDA4137130 /* Brother1816-Regular.woff2 */; };
+		AA67B075CDDE4AA094DD6AE0 /* Brother1816-Regulartalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 9DE4BF2B886D4BA1B4A3C51E /* Brother1816-Regulartalic.ttf */; };
+		284A1574036046FC922F7DBE /* Brother1816-Regulartalic.woff in Resources */ = {isa = PBXBuildFile; fileRef = 3563CDB46B2347AF980D619F /* Brother1816-Regulartalic.woff */; };
+		F44B10A7AA484E5783C23D6D /* Brother1816-Regulartalic.woff2 in Resources */ = {isa = PBXBuildFile; fileRef = 38DE135DE9E44F6D9329E8CE /* Brother1816-Regulartalic.woff2 */; };
+		2B0B5330B71E4BEF8B42E084 /* Brother1816-Thin.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 51F862ABD8E243F69F8491B7 /* Brother1816-Thin.ttf */; };
+		422FC7084F3C4C62B599E3D1 /* Brother1816-Thin.woff in Resources */ = {isa = PBXBuildFile; fileRef = F922310D6BA7484E87D926EC /* Brother1816-Thin.woff */; };
+		B0B0523E60B2435C992E6097 /* Brother1816-Thin.woff2 in Resources */ = {isa = PBXBuildFile; fileRef = AC8F91BE48144ECDACE9BAC9 /* Brother1816-Thin.woff2 */; };
+		08261162D94649EBBEA443BE /* Brother1816-ThinItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = C1E2C73B5D8146798D626CE4 /* Brother1816-ThinItalic.ttf */; };
+		7FA07CD2DED74900B8BE4790 /* Brother1816-ThinItalic.woff in Resources */ = {isa = PBXBuildFile; fileRef = C83C534FE2FC4DC4BEF3BE48 /* Brother1816-ThinItalic.woff */; };
+		8945195A77394777B7DA5262 /* Brother1816-ThinItalic.woff2 in Resources */ = {isa = PBXBuildFile; fileRef = 142C1B6251AC49858D509918 /* Brother1816-ThinItalic.woff2 */; };
+		D363F0CE5A3E42CC8DA2A5F9 /* Brother1816Printed-Black.ttf in Resources */ = {isa = PBXBuildFile; fileRef = F1ED62AF319F411A922828A1 /* Brother1816Printed-Black.ttf */; };
+		4AA926E3EFD24F57BB99AE0C /* Brother1816Printed-Black.woff in Resources */ = {isa = PBXBuildFile; fileRef = 42459E5E170D4089814450C9 /* Brother1816Printed-Black.woff */; };
+		DC299D5CB18243B5839DFB5D /* Brother1816Printed-Black.woff2 in Resources */ = {isa = PBXBuildFile; fileRef = 7862358E835A431D9473D262 /* Brother1816Printed-Black.woff2 */; };
+		0E4F6AD0424A468DAD8AE100 /* Brother1816Printed-BlackItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = EAAC29BE19B04AA3AAFE7BB3 /* Brother1816Printed-BlackItalic.ttf */; };
+		5E3863CD618A4F249C083CC9 /* Brother1816Printed-BlackItalic.woff in Resources */ = {isa = PBXBuildFile; fileRef = 27B63890F5104E61BC3D9C32 /* Brother1816Printed-BlackItalic.woff */; };
+		631FA7E494F842B48093DDA1 /* Brother1816Printed-BlackItalic.woff2 in Resources */ = {isa = PBXBuildFile; fileRef = CD7A76202EFD42D5835A9CF1 /* Brother1816Printed-BlackItalic.woff2 */; };
+		D29D46DF3DC143F88DE99045 /* Brother1816Printed-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 3D7647EC943E488B918A03DC /* Brother1816Printed-Bold.ttf */; };
+		C50805A3E1C849D087BA0FBA /* Brother1816Printed-Bold.woff in Resources */ = {isa = PBXBuildFile; fileRef = F48DA8BAC1424B28BA598179 /* Brother1816Printed-Bold.woff */; };
+		4E6A8B00329747BAAC1EA463 /* Brother1816Printed-Bold.woff2 in Resources */ = {isa = PBXBuildFile; fileRef = D705308A0385448FA0F3DE37 /* Brother1816Printed-Bold.woff2 */; };
+		864AC8A2C240411EB840429E /* Brother1816Printed-BoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = A1A0703F63324ADD8B81DCE9 /* Brother1816Printed-BoldItalic.ttf */; };
+		555E86675E99482F9966FED7 /* Brother1816Printed-BoldItalic.woff in Resources */ = {isa = PBXBuildFile; fileRef = C947990FD87A43E5AE708C0C /* Brother1816Printed-BoldItalic.woff */; };
+		E0BAA00C0D6C407C8BC2075B /* Brother1816Printed-BoldItalic.woff2 in Resources */ = {isa = PBXBuildFile; fileRef = EFCFE45B11EE45EFA425CC4B /* Brother1816Printed-BoldItalic.woff2 */; };
+		3699B330B086481591E91C0F /* Brother1816Printed-Book.ttf in Resources */ = {isa = PBXBuildFile; fileRef = BBB90BE31F524165B74222B2 /* Brother1816Printed-Book.ttf */; };
+		FB58316BDBA841099D24BDD0 /* Brother1816Printed-Book.woff in Resources */ = {isa = PBXBuildFile; fileRef = FE6CD9C4CC844966A129F51C /* Brother1816Printed-Book.woff */; };
+		3F3A40FFE336411D88D7C354 /* Brother1816Printed-Book.woff2 in Resources */ = {isa = PBXBuildFile; fileRef = B7AB80603D2A47BFA9BC2F5D /* Brother1816Printed-Book.woff2 */; };
+		F20A565E037C438C8463AA26 /* Brother1816Printed-BookItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 8D6D5D75AA654B06A7AE42CD /* Brother1816Printed-BookItalic.ttf */; };
+		C56F619A775C4A92BE15B8CB /* Brother1816Printed-BookItalic.woff in Resources */ = {isa = PBXBuildFile; fileRef = 4CFA481FAC6842B0991E9208 /* Brother1816Printed-BookItalic.woff */; };
+		FB8FA21A9B1E43108E636676 /* Brother1816Printed-BookItalic.woff2 in Resources */ = {isa = PBXBuildFile; fileRef = C5C7F14A81A94077894B3882 /* Brother1816Printed-BookItalic.woff2 */; };
+		E9552142A14F48C4980D8DAF /* Brother1816Printed-ExtraBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 8E098419390D4B3E8F456FE1 /* Brother1816Printed-ExtraBold.ttf */; };
+		4B864071632E488BBCF56777 /* Brother1816Printed-ExtraBold.woff in Resources */ = {isa = PBXBuildFile; fileRef = C2F1D3253BED43A78F255DEA /* Brother1816Printed-ExtraBold.woff */; };
+		F7F3B5B47794402B998B8B31 /* Brother1816Printed-ExtraBold.woff2 in Resources */ = {isa = PBXBuildFile; fileRef = 3FEEBB9212F7468784F3D416 /* Brother1816Printed-ExtraBold.woff2 */; };
+		9E74BCB8E36D478BB4D356D2 /* Brother1816Printed-ExtraBoldIta.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 77150AFBA0A54D52B44E8F15 /* Brother1816Printed-ExtraBoldIta.ttf */; };
+		B458D418B6B54AFD90B0AB62 /* Brother1816Printed-ExtraBoldIta.woff in Resources */ = {isa = PBXBuildFile; fileRef = 92CA0105F4FB4621975C4D53 /* Brother1816Printed-ExtraBoldIta.woff */; };
+		EAAB54DF8F4B4E938AA84ACA /* Brother1816Printed-ExtraBoldIta.woff2 in Resources */ = {isa = PBXBuildFile; fileRef = 008D0B968B6844FAB74818DD /* Brother1816Printed-ExtraBoldIta.woff2 */; };
+		0CB6370288DF47CE8F78533D /* Brother1816Printed-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = A72F5058A8734464867DB8C2 /* Brother1816Printed-Light.ttf */; };
+		188C57BA73004EC186613AC2 /* Brother1816Printed-Light.woff in Resources */ = {isa = PBXBuildFile; fileRef = 11C41B950B3A499D95CEFF9C /* Brother1816Printed-Light.woff */; };
+		7481A8DCA5D6421887CA324E /* Brother1816Printed-Light.woff2 in Resources */ = {isa = PBXBuildFile; fileRef = 6C8FCF62C72F4F51AECE64F7 /* Brother1816Printed-Light.woff2 */; };
+		A08983FBF7EB41179FD531FC /* Brother1816Printed-LightItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 68CC8FFC2B7241DBAA5F10DA /* Brother1816Printed-LightItalic.ttf */; };
+		D2E8F3847ACF46DDA6B3415D /* Brother1816Printed-LightItalic.woff in Resources */ = {isa = PBXBuildFile; fileRef = DF7476CFDA404F3F9B10CAD7 /* Brother1816Printed-LightItalic.woff */; };
+		487F93A2D25F4B45A425EF1F /* Brother1816Printed-LightItalic.woff2 in Resources */ = {isa = PBXBuildFile; fileRef = 89EBAD905A854D6BA8005A05 /* Brother1816Printed-LightItalic.woff2 */; };
+		A5D8F38D31104ADDAA9ACDA6 /* Brother1816Printed-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 249215E89AB047B0BDB9C273 /* Brother1816Printed-Medium.ttf */; };
+		29D7236EEA554FB09EF4BD1C /* Brother1816Printed-Medium.woff in Resources */ = {isa = PBXBuildFile; fileRef = 064601F80CE94B74AA7ECDD7 /* Brother1816Printed-Medium.woff */; };
+		9C26C723CC724A7BB76A4A52 /* Brother1816Printed-Medium.woff2 in Resources */ = {isa = PBXBuildFile; fileRef = 9F0DAE36836E447FA4B844A9 /* Brother1816Printed-Medium.woff2 */; };
+		BBEA0891C43942EFA4181DF9 /* Brother1816Printed-MediumItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 732E6935405E41A3981F4E51 /* Brother1816Printed-MediumItalic.ttf */; };
+		4511F45697374685B0C22C95 /* Brother1816Printed-MediumItalic.woff in Resources */ = {isa = PBXBuildFile; fileRef = BBBFAD01F6284DCAA5BF694C /* Brother1816Printed-MediumItalic.woff */; };
+		9ADB6F7FE60A4F599F2D4ECC /* Brother1816Printed-MediumItalic.woff2 in Resources */ = {isa = PBXBuildFile; fileRef = 9A864BF4F1904D22832E54A4 /* Brother1816Printed-MediumItalic.woff2 */; };
+		A333F1E05D5B4FFD8CA29567 /* Brother1816Printed-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 32FBED6FE7614DC7914B9EAC /* Brother1816Printed-Regular.ttf */; };
+		1DE09930AD3B440CA196E09D /* Brother1816Printed-Regular.woff in Resources */ = {isa = PBXBuildFile; fileRef = C484D63AD1634B20B2A23108 /* Brother1816Printed-Regular.woff */; };
+		BDEB232E260D4E34A92DCD9E /* Brother1816Printed-Regular.woff2 in Resources */ = {isa = PBXBuildFile; fileRef = 30E253D9D87A4BACA4CC6559 /* Brother1816Printed-Regular.woff2 */; };
+		5FAE268EF5FD43BAA87381A0 /* Brother1816Printed-RegularItali.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 0016FCD7CE7148A1AE3F8CBA /* Brother1816Printed-RegularItali.ttf */; };
+		2AFC48943995442F904F45BB /* Brother1816Printed-RegularItali.woff in Resources */ = {isa = PBXBuildFile; fileRef = 051C3F45654A4DF09C7AD979 /* Brother1816Printed-RegularItali.woff */; };
+		D23D51E2544D43619C38FA73 /* Brother1816Printed-RegularItali.woff2 in Resources */ = {isa = PBXBuildFile; fileRef = 03DB8E5E002D40F4A90E7E11 /* Brother1816Printed-RegularItali.woff2 */; };
+		716C83880DAD402EBAF2A5E7 /* Brother1816Printed-Thin.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 9AD1C3E6731342B38B437960 /* Brother1816Printed-Thin.ttf */; };
+		78733FEC98994C35A78635AF /* Brother1816Printed-Thin.woff in Resources */ = {isa = PBXBuildFile; fileRef = 46273B41ABCB48E993EA64C6 /* Brother1816Printed-Thin.woff */; };
+		E331320E90A141F0B1A9D914 /* Brother1816Printed-Thin.woff2 in Resources */ = {isa = PBXBuildFile; fileRef = 25D25A3A64D443E0AE30B952 /* Brother1816Printed-Thin.woff2 */; };
+		F56EC8DFAD904B769F51D2C0 /* Brother1816Printed-ThinItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = C26DA8FC19CB481F87805E0F /* Brother1816Printed-ThinItalic.ttf */; };
+		476C6BDEC89C4A6CA33985EA /* Brother1816Printed-ThinItalic.woff in Resources */ = {isa = PBXBuildFile; fileRef = 63768403E11B416EB4A46B0B /* Brother1816Printed-ThinItalic.woff */; };
+		37F62217FDC9412AB4A93BE2 /* Brother1816Printed-ThinItalic.woff2 in Resources */ = {isa = PBXBuildFile; fileRef = BBA07D52E47A429C86984920 /* Brother1816Printed-ThinItalic.woff2 */; };
+		A9C85D1A8E7847DDA354A5B3 /* AntDesign.ttf in Resources */ = {isa = PBXBuildFile; fileRef = C214569DDF39406593C6AADA /* AntDesign.ttf */; };
+		5F2E0F1500C048B6A246FD85 /* Entypo.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 66E0E363F50B4B13B1388E9B /* Entypo.ttf */; };
+		9C50F99D18654A3D93668428 /* EvilIcons.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 7658412411744A38A3028BD3 /* EvilIcons.ttf */; };
+		FCEA0F4213A547D882296AB8 /* Feather.ttf in Resources */ = {isa = PBXBuildFile; fileRef = FDC18B96E3364508B90D722C /* Feather.ttf */; };
+		A3B1A06990574E40ADB49E28 /* FontAwesome.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 807ACBFC0B2A452AA5EB7B28 /* FontAwesome.ttf */; };
+		F011E7E3E2D94FAC9FBF39EE /* FontAwesome5_Brands.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 00A8BEA7BBE148F2A25B8B0D /* FontAwesome5_Brands.ttf */; };
+		5D6ECE9F2CD84E46B24C4FCC /* FontAwesome5_Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = FD273F5F634A4BA58B122B55 /* FontAwesome5_Regular.ttf */; };
+		362CB2A546AF4B3EB210EC11 /* FontAwesome5_Solid.ttf in Resources */ = {isa = PBXBuildFile; fileRef = C1F747EADAE34B2D850DF8F8 /* FontAwesome5_Solid.ttf */; };
+		F511B74E7D984D1594842E9B /* Fontisto.ttf in Resources */ = {isa = PBXBuildFile; fileRef = C138CFEF9BE84ED19AEC8D4B /* Fontisto.ttf */; };
+		056EAD2C5FAB4D35886E0B0F /* Foundation.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 4B305210C1594A4F9B964C30 /* Foundation.ttf */; };
+		BCA8A844D56E4BF789149E37 /* Ionicons.ttf in Resources */ = {isa = PBXBuildFile; fileRef = D9BA2A8F68EB4AEC99FCBDC4 /* Ionicons.ttf */; };
+		D736C3FF81EE4499B04C605D /* MaterialCommunityIcons.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 783555C9EBCC44028B21EF10 /* MaterialCommunityIcons.ttf */; };
+		062F37B5E4A949ACA187D694 /* MaterialIcons.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 712C886EF6D349A4ACC404CF /* MaterialIcons.ttf */; };
+		A846E7C8BF854D6E99B70FAE /* Octicons.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 02EC2C04C5844CF4A8814387 /* Octicons.ttf */; };
+		09F577F5D2E34FBE90C7E440 /* SimpleLineIcons.ttf in Resources */ = {isa = PBXBuildFile; fileRef = D016B3E86F944779A315C34D /* SimpleLineIcons.ttf */; };
+		001F7935442940798F8C143B /* Zocial.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 4216BE2651334598BF5B02A0 /* Zocial.ttf */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -62,11 +304,253 @@
 		3F0D2A44D825679400FF5A87 /* Pods-Test1.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Test1.debug.xcconfig"; path = "Target Support Files/Pods-Test1/Pods-Test1.debug.xcconfig"; sourceTree = "<group>"; };
 		8AB943AF0A0850363BD458A2 /* libPods-Test1.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Test1.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		9BBFA79C2D9103DDA2FDE7B4 /* Pods-Test1-tvOS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Test1-tvOS.release.xcconfig"; path = "Target Support Files/Pods-Test1-tvOS/Pods-Test1-tvOS.release.xcconfig"; sourceTree = "<group>"; };
+		A1EEF9DD23E1A45100649E56 /* Brother1816Printed-ExtraBold.woff2 */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Brother1816Printed-ExtraBold.woff2"; path = "../../assets/fonts/Brother1816Printed-ExtraBold.woff2"; sourceTree = "<group>"; };
+		A1EEF9DE23E1A45200649E56 /* Brother1816-BlackItalic.eot */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Brother1816-BlackItalic.eot"; path = "../../assets/fonts/Brother1816-BlackItalic.eot"; sourceTree = "<group>"; };
+		A1EEF9DF23E1A45200649E56 /* Brother1816-Black.woff */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Brother1816-Black.woff"; path = "../../assets/fonts/Brother1816-Black.woff"; sourceTree = "<group>"; };
+		A1EEF9E023E1A45200649E56 /* Brother1816Printed-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Brother1816Printed-Regular.ttf"; path = "../../assets/fonts/Brother1816Printed-Regular.ttf"; sourceTree = "<group>"; };
+		A1EEF9E123E1A45200649E56 /* Brother1816Printed-Black.woff2 */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Brother1816Printed-Black.woff2"; path = "../../assets/fonts/Brother1816Printed-Black.woff2"; sourceTree = "<group>"; };
+		A1EEF9E223E1A45200649E56 /* Brother1816-ExtraBoldItalic.woff2 */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Brother1816-ExtraBoldItalic.woff2"; path = "../../assets/fonts/Brother1816-ExtraBoldItalic.woff2"; sourceTree = "<group>"; };
+		A1EEF9E323E1A45200649E56 /* Brother1816Printed-ExtraBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Brother1816Printed-ExtraBold.ttf"; path = "../../assets/fonts/Brother1816Printed-ExtraBold.ttf"; sourceTree = "<group>"; };
+		A1EEF9E423E1A45200649E56 /* Brother1816Printed-MediumItalic.woff2 */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Brother1816Printed-MediumItalic.woff2"; path = "../../assets/fonts/Brother1816Printed-MediumItalic.woff2"; sourceTree = "<group>"; };
+		A1EEF9E523E1A45200649E56 /* Brother1816Printed-Black.eot */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Brother1816Printed-Black.eot"; path = "../../assets/fonts/Brother1816Printed-Black.eot"; sourceTree = "<group>"; };
+		A1EEF9E623E1A45200649E56 /* Brother1816-Thin.woff */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Brother1816-Thin.woff"; path = "../../assets/fonts/Brother1816-Thin.woff"; sourceTree = "<group>"; };
+		A1EEF9E723E1A45200649E56 /* Brother1816Printed-Thin.woff */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Brother1816Printed-Thin.woff"; path = "../../assets/fonts/Brother1816Printed-Thin.woff"; sourceTree = "<group>"; };
+		A1EEF9E823E1A45200649E56 /* Brother1816-ThinItalic.eot */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Brother1816-ThinItalic.eot"; path = "../../assets/fonts/Brother1816-ThinItalic.eot"; sourceTree = "<group>"; };
+		A1EEF9E923E1A45200649E56 /* Brother1816-Bold.woff2 */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Brother1816-Bold.woff2"; path = "../../assets/fonts/Brother1816-Bold.woff2"; sourceTree = "<group>"; };
+		A1EEF9EA23E1A45200649E56 /* Brother1816-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Brother1816-Regular.ttf"; path = "../../assets/fonts/Brother1816-Regular.ttf"; sourceTree = "<group>"; };
+		A1EEF9EB23E1A45200649E56 /* Brother1816-Light.woff2 */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Brother1816-Light.woff2"; path = "../../assets/fonts/Brother1816-Light.woff2"; sourceTree = "<group>"; };
+		A1EEF9EC23E1A45200649E56 /* Brother1816-Book.woff */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Brother1816-Book.woff"; path = "../../assets/fonts/Brother1816-Book.woff"; sourceTree = "<group>"; };
+		A1EEF9ED23E1A45200649E56 /* Brother1816Printed-Bold.woff2 */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Brother1816Printed-Bold.woff2"; path = "../../assets/fonts/Brother1816Printed-Bold.woff2"; sourceTree = "<group>"; };
+		A1EEF9EE23E1A45300649E56 /* Brother1816-BoldItalic.woff2 */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Brother1816-BoldItalic.woff2"; path = "../../assets/fonts/Brother1816-BoldItalic.woff2"; sourceTree = "<group>"; };
+		A1EEF9EF23E1A45300649E56 /* Brother1816-Light.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Brother1816-Light.ttf"; path = "../../assets/fonts/Brother1816-Light.ttf"; sourceTree = "<group>"; };
+		A1EEF9F023E1A45300649E56 /* Brother1816-ExtraBoldItalic.woff */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Brother1816-ExtraBoldItalic.woff"; path = "../../assets/fonts/Brother1816-ExtraBoldItalic.woff"; sourceTree = "<group>"; };
+		A1EEF9F123E1A45300649E56 /* Brother1816Printed-Regular.eot */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Brother1816Printed-Regular.eot"; path = "../../assets/fonts/Brother1816Printed-Regular.eot"; sourceTree = "<group>"; };
+		A1EEF9F223E1A45300649E56 /* Brother1816Printed-Regular.woff */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Brother1816Printed-Regular.woff"; path = "../../assets/fonts/Brother1816Printed-Regular.woff"; sourceTree = "<group>"; };
+		A1EEF9F323E1A45300649E56 /* Brother1816Printed-ExtraBoldIta.eot */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Brother1816Printed-ExtraBoldIta.eot"; path = "../../assets/fonts/Brother1816Printed-ExtraBoldIta.eot"; sourceTree = "<group>"; };
+		A1EEF9F423E1A45300649E56 /* Brother1816Printed-Medium.woff */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Brother1816Printed-Medium.woff"; path = "../../assets/fonts/Brother1816Printed-Medium.woff"; sourceTree = "<group>"; };
+		A1EEF9F523E1A45300649E56 /* Brother1816-BoldItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Brother1816-BoldItalic.ttf"; path = "../../assets/fonts/Brother1816-BoldItalic.ttf"; sourceTree = "<group>"; };
+		A1EEF9F623E1A45300649E56 /* Brother1816Printed-Thin.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Brother1816Printed-Thin.ttf"; path = "../../assets/fonts/Brother1816Printed-Thin.ttf"; sourceTree = "<group>"; };
+		A1EEF9F723E1A45300649E56 /* Brother1816-Medium.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Brother1816-Medium.ttf"; path = "../../assets/fonts/Brother1816-Medium.ttf"; sourceTree = "<group>"; };
+		A1EEF9F823E1A45400649E56 /* demo.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; name = demo.html; path = ../../assets/fonts/demo.html; sourceTree = "<group>"; };
+		A1EEF9F923E1A45400649E56 /* Brother1816Printed-BlackItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Brother1816Printed-BlackItalic.ttf"; path = "../../assets/fonts/Brother1816Printed-BlackItalic.ttf"; sourceTree = "<group>"; };
+		A1EEF9FA23E1A45400649E56 /* Brother1816-Light.eot */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Brother1816-Light.eot"; path = "../../assets/fonts/Brother1816-Light.eot"; sourceTree = "<group>"; };
+		A1EEF9FB23E1A45400649E56 /* Brother1816-BoldItalic.eot */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Brother1816-BoldItalic.eot"; path = "../../assets/fonts/Brother1816-BoldItalic.eot"; sourceTree = "<group>"; };
+		A1EEF9FC23E1A45400649E56 /* Brother1816Printed-LightItalic.woff */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Brother1816Printed-LightItalic.woff"; path = "../../assets/fonts/Brother1816Printed-LightItalic.woff"; sourceTree = "<group>"; };
+		A1EEF9FD23E1A45400649E56 /* Brother1816-Regular.woff */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Brother1816-Regular.woff"; path = "../../assets/fonts/Brother1816-Regular.woff"; sourceTree = "<group>"; };
+		A1EEF9FE23E1A45400649E56 /* Brother1816-ExtraBold.woff */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Brother1816-ExtraBold.woff"; path = "../../assets/fonts/Brother1816-ExtraBold.woff"; sourceTree = "<group>"; };
+		A1EEF9FF23E1A45400649E56 /* Brother1816-Regular.woff2 */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Brother1816-Regular.woff2"; path = "../../assets/fonts/Brother1816-Regular.woff2"; sourceTree = "<group>"; };
+		A1EEFA0023E1A45400649E56 /* Brother1816Printed-LightItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Brother1816Printed-LightItalic.ttf"; path = "../../assets/fonts/Brother1816Printed-LightItalic.ttf"; sourceTree = "<group>"; };
+		A1EEFA0123E1A45400649E56 /* Brother1816Printed-ThinItalic.woff */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Brother1816Printed-ThinItalic.woff"; path = "../../assets/fonts/Brother1816Printed-ThinItalic.woff"; sourceTree = "<group>"; };
+		A1EEFA0223E1A45500649E56 /* Brother1816Printed-Black.woff */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Brother1816Printed-Black.woff"; path = "../../assets/fonts/Brother1816Printed-Black.woff"; sourceTree = "<group>"; };
+		A1EEFA0323E1A45500649E56 /* Brother1816-Thin.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Brother1816-Thin.ttf"; path = "../../assets/fonts/Brother1816-Thin.ttf"; sourceTree = "<group>"; };
+		A1EEFA0423E1A45500649E56 /* Brother1816-LightItalic.eot */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Brother1816-LightItalic.eot"; path = "../../assets/fonts/Brother1816-LightItalic.eot"; sourceTree = "<group>"; };
+		A1EEFA0523E1A45500649E56 /* Brother1816-BookItalic.eot */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Brother1816-BookItalic.eot"; path = "../../assets/fonts/Brother1816-BookItalic.eot"; sourceTree = "<group>"; };
+		A1EEFA0623E1A45500649E56 /* Brother1816Printed-ExtraBoldIta.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Brother1816Printed-ExtraBoldIta.ttf"; path = "../../assets/fonts/Brother1816Printed-ExtraBoldIta.ttf"; sourceTree = "<group>"; };
+		A1EEFA0723E1A45500649E56 /* Brother1816Printed-MediumItalic.eot */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Brother1816Printed-MediumItalic.eot"; path = "../../assets/fonts/Brother1816Printed-MediumItalic.eot"; sourceTree = "<group>"; };
+		A1EEFA0823E1A45500649E56 /* Brother1816-Black.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Brother1816-Black.ttf"; path = "../../assets/fonts/Brother1816-Black.ttf"; sourceTree = "<group>"; };
+		A1EEFA0923E1A45500649E56 /* Brother1816-Bold.eot */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Brother1816-Bold.eot"; path = "../../assets/fonts/Brother1816-Bold.eot"; sourceTree = "<group>"; };
+		A1EEFA0A23E1A45500649E56 /* Brother1816Printed-Book.woff */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Brother1816Printed-Book.woff"; path = "../../assets/fonts/Brother1816Printed-Book.woff"; sourceTree = "<group>"; };
+		A1EEFA0B23E1A45600649E56 /* Brother1816Printed-MediumItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Brother1816Printed-MediumItalic.ttf"; path = "../../assets/fonts/Brother1816Printed-MediumItalic.ttf"; sourceTree = "<group>"; };
+		A1EEFA0C23E1A45600649E56 /* Brother1816-Black.eot */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Brother1816-Black.eot"; path = "../../assets/fonts/Brother1816-Black.eot"; sourceTree = "<group>"; };
+		A1EEFA0D23E1A45600649E56 /* Brother1816Printed-BoldItalic.eot */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Brother1816Printed-BoldItalic.eot"; path = "../../assets/fonts/Brother1816Printed-BoldItalic.eot"; sourceTree = "<group>"; };
+		A1EEFA0E23E1A45600649E56 /* Brother1816Printed-BoldItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Brother1816Printed-BoldItalic.ttf"; path = "../../assets/fonts/Brother1816Printed-BoldItalic.ttf"; sourceTree = "<group>"; };
+		A1EEFA0F23E1A45600649E56 /* Brother1816-Medium.woff */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Brother1816-Medium.woff"; path = "../../assets/fonts/Brother1816-Medium.woff"; sourceTree = "<group>"; };
+		A1EEFA1023E1A45600649E56 /* Brother1816Printed-BoldItalic.woff2 */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Brother1816Printed-BoldItalic.woff2"; path = "../../assets/fonts/Brother1816Printed-BoldItalic.woff2"; sourceTree = "<group>"; };
+		A1EEFA1123E1A45600649E56 /* Brother1816Printed-LightItalic.eot */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Brother1816Printed-LightItalic.eot"; path = "../../assets/fonts/Brother1816Printed-LightItalic.eot"; sourceTree = "<group>"; };
+		A1EEFA1223E1A45600649E56 /* Brother1816-LightItalic.woff2 */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Brother1816-LightItalic.woff2"; path = "../../assets/fonts/Brother1816-LightItalic.woff2"; sourceTree = "<group>"; };
+		A1EEFA1323E1A45600649E56 /* Brother1816-MediumItalic.eot */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Brother1816-MediumItalic.eot"; path = "../../assets/fonts/Brother1816-MediumItalic.eot"; sourceTree = "<group>"; };
+		A1EEFA1423E1A45600649E56 /* Brother1816Printed-ExtraBoldIta.woff2 */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Brother1816Printed-ExtraBoldIta.woff2"; path = "../../assets/fonts/Brother1816Printed-ExtraBoldIta.woff2"; sourceTree = "<group>"; };
+		A1EEFA1523E1A45700649E56 /* Brother1816Printed-BookItalic.eot */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Brother1816Printed-BookItalic.eot"; path = "../../assets/fonts/Brother1816Printed-BookItalic.eot"; sourceTree = "<group>"; };
+		A1EEFA1623E1A45700649E56 /* Brother1816-Book.eot */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Brother1816-Book.eot"; path = "../../assets/fonts/Brother1816-Book.eot"; sourceTree = "<group>"; };
+		A1EEFA1723E1A45700649E56 /* Brother1816Printed-BookItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Brother1816Printed-BookItalic.ttf"; path = "../../assets/fonts/Brother1816Printed-BookItalic.ttf"; sourceTree = "<group>"; };
+		A1EEFA1823E1A45700649E56 /* Brother1816-Medium.eot */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Brother1816-Medium.eot"; path = "../../assets/fonts/Brother1816-Medium.eot"; sourceTree = "<group>"; };
+		A1EEFA1923E1A45700649E56 /* Brother1816Printed-BlackItalic.woff2 */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Brother1816Printed-BlackItalic.woff2"; path = "../../assets/fonts/Brother1816Printed-BlackItalic.woff2"; sourceTree = "<group>"; };
+		A1EEFA1A23E1A45700649E56 /* Brother1816Printed-ThinItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Brother1816Printed-ThinItalic.ttf"; path = "../../assets/fonts/Brother1816Printed-ThinItalic.ttf"; sourceTree = "<group>"; };
+		A1EEFA1B23E1A45700649E56 /* Brother1816-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Brother1816-Bold.ttf"; path = "../../assets/fonts/Brother1816-Bold.ttf"; sourceTree = "<group>"; };
+		A1EEFA1C23E1A45700649E56 /* Brother1816Printed-ThinItalic.eot */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Brother1816Printed-ThinItalic.eot"; path = "../../assets/fonts/Brother1816Printed-ThinItalic.eot"; sourceTree = "<group>"; };
+		A1EEFA1D23E1A45700649E56 /* Brother1816Printed-BlackItalic.woff */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Brother1816Printed-BlackItalic.woff"; path = "../../assets/fonts/Brother1816Printed-BlackItalic.woff"; sourceTree = "<group>"; };
+		A1EEFA1E23E1A45800649E56 /* Brother1816-Bold.woff */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Brother1816-Bold.woff"; path = "../../assets/fonts/Brother1816-Bold.woff"; sourceTree = "<group>"; };
+		A1EEFA1F23E1A45800649E56 /* Brother1816-BookItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Brother1816-BookItalic.ttf"; path = "../../assets/fonts/Brother1816-BookItalic.ttf"; sourceTree = "<group>"; };
+		A1EEFA2023E1A45800649E56 /* Brother1816-Medium.woff2 */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Brother1816-Medium.woff2"; path = "../../assets/fonts/Brother1816-Medium.woff2"; sourceTree = "<group>"; };
+		A1EEFA2123E1A45800649E56 /* Brother1816-Book.woff2 */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Brother1816-Book.woff2"; path = "../../assets/fonts/Brother1816-Book.woff2"; sourceTree = "<group>"; };
+		A1EEFA2223E1A45800649E56 /* Brother1816Printed-Bold.woff */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Brother1816Printed-Bold.woff"; path = "../../assets/fonts/Brother1816Printed-Bold.woff"; sourceTree = "<group>"; };
+		A1EEFA2323E1A45800649E56 /* Brother1816-MediumItalic.woff */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Brother1816-MediumItalic.woff"; path = "../../assets/fonts/Brother1816-MediumItalic.woff"; sourceTree = "<group>"; };
+		A1EEFA2423E1A45800649E56 /* Brother1816-BlackItalic.woff */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Brother1816-BlackItalic.woff"; path = "../../assets/fonts/Brother1816-BlackItalic.woff"; sourceTree = "<group>"; };
+		A1EEFA2523E1A45800649E56 /* Brother1816Printed-Light.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Brother1816Printed-Light.ttf"; path = "../../assets/fonts/Brother1816Printed-Light.ttf"; sourceTree = "<group>"; };
+		A1EEFA2623E1A45800649E56 /* Brother1816Printed-Book.eot */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Brother1816Printed-Book.eot"; path = "../../assets/fonts/Brother1816Printed-Book.eot"; sourceTree = "<group>"; };
+		A1EEFA2723E1A45800649E56 /* Brother1816Printed-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Brother1816Printed-Bold.ttf"; path = "../../assets/fonts/Brother1816Printed-Bold.ttf"; sourceTree = "<group>"; };
+		A1EEFA2823E1A45800649E56 /* Brother1816Printed-Medium.eot */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Brother1816Printed-Medium.eot"; path = "../../assets/fonts/Brother1816Printed-Medium.eot"; sourceTree = "<group>"; };
+		A1EEFA2923E1A45900649E56 /* Brother1816Printed-Light.woff2 */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Brother1816Printed-Light.woff2"; path = "../../assets/fonts/Brother1816Printed-Light.woff2"; sourceTree = "<group>"; };
+		A1EEFA2A23E1A45900649E56 /* Brother1816Printed-BookItalic.woff2 */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Brother1816Printed-BookItalic.woff2"; path = "../../assets/fonts/Brother1816Printed-BookItalic.woff2"; sourceTree = "<group>"; };
+		A1EEFA2B23E1A45900649E56 /* Brother1816-Regulartalic.woff */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Brother1816-Regulartalic.woff"; path = "../../assets/fonts/Brother1816-Regulartalic.woff"; sourceTree = "<group>"; };
+		A1EEFA2C23E1A45900649E56 /* Brother1816-BookItalic.woff2 */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Brother1816-BookItalic.woff2"; path = "../../assets/fonts/Brother1816-BookItalic.woff2"; sourceTree = "<group>"; };
+		A1EEFA2D23E1A45900649E56 /* Brother1816Printed-LightItalic.woff2 */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Brother1816Printed-LightItalic.woff2"; path = "../../assets/fonts/Brother1816Printed-LightItalic.woff2"; sourceTree = "<group>"; };
+		A1EEFA2E23E1A45900649E56 /* Brother1816Printed-ExtraBold.eot */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Brother1816Printed-ExtraBold.eot"; path = "../../assets/fonts/Brother1816Printed-ExtraBold.eot"; sourceTree = "<group>"; };
+		A1EEFA2F23E1A45900649E56 /* Brother1816-ExtraBold.eot */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Brother1816-ExtraBold.eot"; path = "../../assets/fonts/Brother1816-ExtraBold.eot"; sourceTree = "<group>"; };
+		A1EEFA3023E1A45900649E56 /* Brother1816-ExtraBoldItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Brother1816-ExtraBoldItalic.ttf"; path = "../../assets/fonts/Brother1816-ExtraBoldItalic.ttf"; sourceTree = "<group>"; };
+		A1EEFA3123E1A45900649E56 /* Brother1816-ExtraBoldItalic.eot */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Brother1816-ExtraBoldItalic.eot"; path = "../../assets/fonts/Brother1816-ExtraBoldItalic.eot"; sourceTree = "<group>"; };
+		A1EEFA3223E1A45900649E56 /* Brother1816-ThinItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Brother1816-ThinItalic.ttf"; path = "../../assets/fonts/Brother1816-ThinItalic.ttf"; sourceTree = "<group>"; };
+		A1EEFA3323E1A45A00649E56 /* Brother1816-ExtraBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Brother1816-ExtraBold.ttf"; path = "../../assets/fonts/Brother1816-ExtraBold.ttf"; sourceTree = "<group>"; };
+		A1EEFA3423E1A45A00649E56 /* Brother1816-Book.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Brother1816-Book.ttf"; path = "../../assets/fonts/Brother1816-Book.ttf"; sourceTree = "<group>"; };
+		A1EEFA3523E1A45A00649E56 /* Brother1816Printed-BoldItalic.woff */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Brother1816Printed-BoldItalic.woff"; path = "../../assets/fonts/Brother1816Printed-BoldItalic.woff"; sourceTree = "<group>"; };
+		A1EEFA3623E1A45A00649E56 /* Brother1816-MediumItalic.woff2 */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Brother1816-MediumItalic.woff2"; path = "../../assets/fonts/Brother1816-MediumItalic.woff2"; sourceTree = "<group>"; };
+		A1EEFA3723E1A45A00649E56 /* Brother1816-Regular.eot */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Brother1816-Regular.eot"; path = "../../assets/fonts/Brother1816-Regular.eot"; sourceTree = "<group>"; };
+		A1EEFA3823E1A45A00649E56 /* Brother1816Printed-Light.eot */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Brother1816Printed-Light.eot"; path = "../../assets/fonts/Brother1816Printed-Light.eot"; sourceTree = "<group>"; };
+		A1EEFA3923E1A45A00649E56 /* Brother1816-Regulartalic.eot */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Brother1816-Regulartalic.eot"; path = "../../assets/fonts/Brother1816-Regulartalic.eot"; sourceTree = "<group>"; };
+		A1EEFA3A23E1A45A00649E56 /* Brother1816Printed-Thin.woff2 */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Brother1816Printed-Thin.woff2"; path = "../../assets/fonts/Brother1816Printed-Thin.woff2"; sourceTree = "<group>"; };
+		A1EEFA3B23E1A45A00649E56 /* Brother1816Printed-ExtraBold.woff */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Brother1816Printed-ExtraBold.woff"; path = "../../assets/fonts/Brother1816Printed-ExtraBold.woff"; sourceTree = "<group>"; };
+		A1EEFA3C23E1A45A00649E56 /* Brother1816Printed-Medium.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Brother1816Printed-Medium.ttf"; path = "../../assets/fonts/Brother1816Printed-Medium.ttf"; sourceTree = "<group>"; };
+		A1EEFA3D23E1A45A00649E56 /* Brother1816Printed-Bold.eot */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Brother1816Printed-Bold.eot"; path = "../../assets/fonts/Brother1816Printed-Bold.eot"; sourceTree = "<group>"; };
+		A1EEFA3E23E1A45B00649E56 /* Brother1816Printed-Medium.woff2 */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Brother1816Printed-Medium.woff2"; path = "../../assets/fonts/Brother1816Printed-Medium.woff2"; sourceTree = "<group>"; };
+		A1EEFA3F23E1A45B00649E56 /* Brother1816-Regulartalic.woff2 */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Brother1816-Regulartalic.woff2"; path = "../../assets/fonts/Brother1816-Regulartalic.woff2"; sourceTree = "<group>"; };
+		A1EEFA4023E1A45B00649E56 /* Brother1816-ExtraBold.woff2 */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Brother1816-ExtraBold.woff2"; path = "../../assets/fonts/Brother1816-ExtraBold.woff2"; sourceTree = "<group>"; };
+		A1EEFA4123E1A45B00649E56 /* Brother1816-BlackItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Brother1816-BlackItalic.ttf"; path = "../../assets/fonts/Brother1816-BlackItalic.ttf"; sourceTree = "<group>"; };
+		A1EEFA4223E1A45B00649E56 /* Brother1816-ThinItalic.woff2 */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Brother1816-ThinItalic.woff2"; path = "../../assets/fonts/Brother1816-ThinItalic.woff2"; sourceTree = "<group>"; };
+		A1EEFA4323E1A45B00649E56 /* stylesheet.css */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.css; name = stylesheet.css; path = ../../assets/fonts/stylesheet.css; sourceTree = "<group>"; };
+		A1EEFA4423E1A45B00649E56 /* Brother1816-Black.woff2 */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Brother1816-Black.woff2"; path = "../../assets/fonts/Brother1816-Black.woff2"; sourceTree = "<group>"; };
+		A1EEFA4523E1A45B00649E56 /* Brother1816Printed-Book.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Brother1816Printed-Book.ttf"; path = "../../assets/fonts/Brother1816Printed-Book.ttf"; sourceTree = "<group>"; };
+		A1EEFA4623E1A45B00649E56 /* Brother1816-LightItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Brother1816-LightItalic.ttf"; path = "../../assets/fonts/Brother1816-LightItalic.ttf"; sourceTree = "<group>"; };
+		A1EEFA4723E1A45B00649E56 /* Brother1816Printed-ThinItalic.woff2 */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Brother1816Printed-ThinItalic.woff2"; path = "../../assets/fonts/Brother1816Printed-ThinItalic.woff2"; sourceTree = "<group>"; };
+		A1EEFA4823E1A45C00649E56 /* Brother1816Printed-RegularItali.woff2 */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Brother1816Printed-RegularItali.woff2"; path = "../../assets/fonts/Brother1816Printed-RegularItali.woff2"; sourceTree = "<group>"; };
+		A1EEFA4923E1A45C00649E56 /* Brother1816Printed-BookItalic.woff */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Brother1816Printed-BookItalic.woff"; path = "../../assets/fonts/Brother1816Printed-BookItalic.woff"; sourceTree = "<group>"; };
+		A1EEFA4A23E1A45C00649E56 /* Brother1816Printed-Black.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Brother1816Printed-Black.ttf"; path = "../../assets/fonts/Brother1816Printed-Black.ttf"; sourceTree = "<group>"; };
+		A1EEFA4B23E1A45C00649E56 /* Brother1816-MediumItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Brother1816-MediumItalic.ttf"; path = "../../assets/fonts/Brother1816-MediumItalic.ttf"; sourceTree = "<group>"; };
+		A1EEFA4C23E1A45C00649E56 /* Brother1816Printed-ExtraBoldIta.woff */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Brother1816Printed-ExtraBoldIta.woff"; path = "../../assets/fonts/Brother1816Printed-ExtraBoldIta.woff"; sourceTree = "<group>"; };
+		A1EEFA4D23E1A45C00649E56 /* Brother1816Printed-Thin.eot */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Brother1816Printed-Thin.eot"; path = "../../assets/fonts/Brother1816Printed-Thin.eot"; sourceTree = "<group>"; };
+		A1EEFA4E23E1A45C00649E56 /* Brother1816-Thin.woff2 */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Brother1816-Thin.woff2"; path = "../../assets/fonts/Brother1816-Thin.woff2"; sourceTree = "<group>"; };
+		A1EEFA4F23E1A45C00649E56 /* Brother1816Printed-Regular.woff2 */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Brother1816Printed-Regular.woff2"; path = "../../assets/fonts/Brother1816Printed-Regular.woff2"; sourceTree = "<group>"; };
+		A1EEFA5023E1A45C00649E56 /* Brother1816-BookItalic.woff */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Brother1816-BookItalic.woff"; path = "../../assets/fonts/Brother1816-BookItalic.woff"; sourceTree = "<group>"; };
+		A1EEFA5123E1A45C00649E56 /* Brother1816-Light.woff */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Brother1816-Light.woff"; path = "../../assets/fonts/Brother1816-Light.woff"; sourceTree = "<group>"; };
+		A1EEFA5223E1A45D00649E56 /* Brother1816-LightItalic.woff */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Brother1816-LightItalic.woff"; path = "../../assets/fonts/Brother1816-LightItalic.woff"; sourceTree = "<group>"; };
+		A1EEFA5323E1A45D00649E56 /* Brother1816-BoldItalic.woff */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Brother1816-BoldItalic.woff"; path = "../../assets/fonts/Brother1816-BoldItalic.woff"; sourceTree = "<group>"; };
+		A1EEFA5423E1A45D00649E56 /* Brother1816Printed-Book.woff2 */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Brother1816Printed-Book.woff2"; path = "../../assets/fonts/Brother1816Printed-Book.woff2"; sourceTree = "<group>"; };
+		A1EEFA5523E1A45D00649E56 /* Brother1816-Thin.eot */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Brother1816-Thin.eot"; path = "../../assets/fonts/Brother1816-Thin.eot"; sourceTree = "<group>"; };
+		A1EEFA5623E1A45D00649E56 /* Brother1816-ThinItalic.woff */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Brother1816-ThinItalic.woff"; path = "../../assets/fonts/Brother1816-ThinItalic.woff"; sourceTree = "<group>"; };
+		A1EEFA5723E1A45D00649E56 /* Brother1816-Regulartalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Brother1816-Regulartalic.ttf"; path = "../../assets/fonts/Brother1816-Regulartalic.ttf"; sourceTree = "<group>"; };
+		A1EEFA5823E1A45D00649E56 /* Brother1816Printed-Light.woff */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Brother1816Printed-Light.woff"; path = "../../assets/fonts/Brother1816Printed-Light.woff"; sourceTree = "<group>"; };
+		A1EEFA5923E1A45D00649E56 /* Brother1816Printed-RegularItali.woff */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Brother1816Printed-RegularItali.woff"; path = "../../assets/fonts/Brother1816Printed-RegularItali.woff"; sourceTree = "<group>"; };
+		A1EEFA5A23E1A45D00649E56 /* Brother1816Printed-BlackItalic.eot */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Brother1816Printed-BlackItalic.eot"; path = "../../assets/fonts/Brother1816Printed-BlackItalic.eot"; sourceTree = "<group>"; };
+		A1EEFA5B23E1A45D00649E56 /* Brother1816-BlackItalic.woff2 */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Brother1816-BlackItalic.woff2"; path = "../../assets/fonts/Brother1816-BlackItalic.woff2"; sourceTree = "<group>"; };
+		A1EEFA5C23E1A45D00649E56 /* Brother1816Printed-MediumItalic.woff */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Brother1816Printed-MediumItalic.woff"; path = "../../assets/fonts/Brother1816Printed-MediumItalic.woff"; sourceTree = "<group>"; };
+		A1EEFA5D23E1A45E00649E56 /* Brother1816Printed-RegularItali.eot */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Brother1816Printed-RegularItali.eot"; path = "../../assets/fonts/Brother1816Printed-RegularItali.eot"; sourceTree = "<group>"; };
+		A1EEFA5E23E1A45E00649E56 /* Brother1816Printed-RegularItali.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Brother1816Printed-RegularItali.ttf"; path = "../../assets/fonts/Brother1816Printed-RegularItali.ttf"; sourceTree = "<group>"; };
 		D24733CF3BD7B75702DD0CED /* Pods-Test1-tvOSTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Test1-tvOSTests.release.xcconfig"; path = "Target Support Files/Pods-Test1-tvOSTests/Pods-Test1-tvOSTests.release.xcconfig"; sourceTree = "<group>"; };
 		E781B0D7313C09B660AE548A /* libPods-Test1-tvOS.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Test1-tvOS.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		ED297162215061F000B7C4FE /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = System/Library/Frameworks/JavaScriptCore.framework; sourceTree = SDKROOT; };
 		ED2971642150620600B7C4FE /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = Platforms/AppleTVOS.platform/Developer/SDKs/AppleTVOS12.0.sdk/System/Library/Frameworks/JavaScriptCore.framework; sourceTree = DEVELOPER_DIR; };
 		FFF2AA50518F72323C5A448C /* libPods-Test1Tests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Test1Tests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		5CB8137651FB4B2A94D1960E /* Brother1816-Black.ttf */ = {isa = PBXFileReference; name = "Brother1816-Black.ttf"; path = "../assets/fonts/Brother1816-Black.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		1A534BE498FC48778A439E1F /* Brother1816-Black.woff */ = {isa = PBXFileReference; name = "Brother1816-Black.woff"; path = "../assets/fonts/Brother1816-Black.woff"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		27CC6821CB764265AB777B51 /* Brother1816-Black.woff2 */ = {isa = PBXFileReference; name = "Brother1816-Black.woff2"; path = "../assets/fonts/Brother1816-Black.woff2"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		91DC06C843124B56B331429C /* Brother1816-BlackItalic.ttf */ = {isa = PBXFileReference; name = "Brother1816-BlackItalic.ttf"; path = "../assets/fonts/Brother1816-BlackItalic.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		92730C4BA3BC4302BE94368B /* Brother1816-BlackItalic.woff */ = {isa = PBXFileReference; name = "Brother1816-BlackItalic.woff"; path = "../assets/fonts/Brother1816-BlackItalic.woff"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		10AB981EA1E7468E95465C41 /* Brother1816-BlackItalic.woff2 */ = {isa = PBXFileReference; name = "Brother1816-BlackItalic.woff2"; path = "../assets/fonts/Brother1816-BlackItalic.woff2"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		555DF356CE26466384B9565C /* Brother1816-Bold.ttf */ = {isa = PBXFileReference; name = "Brother1816-Bold.ttf"; path = "../assets/fonts/Brother1816-Bold.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		97B3FA96C15442A69744B03C /* Brother1816-Bold.woff */ = {isa = PBXFileReference; name = "Brother1816-Bold.woff"; path = "../assets/fonts/Brother1816-Bold.woff"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		7F09C697383449C2B439C5FA /* Brother1816-Bold.woff2 */ = {isa = PBXFileReference; name = "Brother1816-Bold.woff2"; path = "../assets/fonts/Brother1816-Bold.woff2"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		114A10DE65474FEEBA275B4A /* Brother1816-BoldItalic.ttf */ = {isa = PBXFileReference; name = "Brother1816-BoldItalic.ttf"; path = "../assets/fonts/Brother1816-BoldItalic.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		882D887F3269413B9B164297 /* Brother1816-BoldItalic.woff */ = {isa = PBXFileReference; name = "Brother1816-BoldItalic.woff"; path = "../assets/fonts/Brother1816-BoldItalic.woff"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		F3EB3BC8D7064D84B75929EE /* Brother1816-BoldItalic.woff2 */ = {isa = PBXFileReference; name = "Brother1816-BoldItalic.woff2"; path = "../assets/fonts/Brother1816-BoldItalic.woff2"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		BC3A76D1659D4697BC2D90FD /* Brother1816-Book.ttf */ = {isa = PBXFileReference; name = "Brother1816-Book.ttf"; path = "../assets/fonts/Brother1816-Book.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		DFCE52BEFBB34D15B710210D /* Brother1816-Book.woff */ = {isa = PBXFileReference; name = "Brother1816-Book.woff"; path = "../assets/fonts/Brother1816-Book.woff"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		9B73D86397F7469A9D41D7B2 /* Brother1816-Book.woff2 */ = {isa = PBXFileReference; name = "Brother1816-Book.woff2"; path = "../assets/fonts/Brother1816-Book.woff2"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		7C9D5F125AA545C58ECD86B6 /* Brother1816-BookItalic.ttf */ = {isa = PBXFileReference; name = "Brother1816-BookItalic.ttf"; path = "../assets/fonts/Brother1816-BookItalic.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		BC4EA874490147FDAA86FE01 /* Brother1816-BookItalic.woff */ = {isa = PBXFileReference; name = "Brother1816-BookItalic.woff"; path = "../assets/fonts/Brother1816-BookItalic.woff"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		52202DFD7CC34C37AB53407D /* Brother1816-BookItalic.woff2 */ = {isa = PBXFileReference; name = "Brother1816-BookItalic.woff2"; path = "../assets/fonts/Brother1816-BookItalic.woff2"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		A56E2D1D1CA942E1B0E38E33 /* Brother1816-ExtraBold.ttf */ = {isa = PBXFileReference; name = "Brother1816-ExtraBold.ttf"; path = "../assets/fonts/Brother1816-ExtraBold.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		2447F396789E41AE8A8435BE /* Brother1816-ExtraBold.woff */ = {isa = PBXFileReference; name = "Brother1816-ExtraBold.woff"; path = "../assets/fonts/Brother1816-ExtraBold.woff"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		70BF4F8A4C5943119DA15621 /* Brother1816-ExtraBold.woff2 */ = {isa = PBXFileReference; name = "Brother1816-ExtraBold.woff2"; path = "../assets/fonts/Brother1816-ExtraBold.woff2"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		42DA379148354763B2AA91FB /* Brother1816-ExtraBoldItalic.ttf */ = {isa = PBXFileReference; name = "Brother1816-ExtraBoldItalic.ttf"; path = "../assets/fonts/Brother1816-ExtraBoldItalic.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		A52B47D40D83416399A1D426 /* Brother1816-ExtraBoldItalic.woff */ = {isa = PBXFileReference; name = "Brother1816-ExtraBoldItalic.woff"; path = "../assets/fonts/Brother1816-ExtraBoldItalic.woff"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		0715BF5ED9BF4BB9B1B2F443 /* Brother1816-ExtraBoldItalic.woff2 */ = {isa = PBXFileReference; name = "Brother1816-ExtraBoldItalic.woff2"; path = "../assets/fonts/Brother1816-ExtraBoldItalic.woff2"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		9A08C83A3B5E4A28825129E2 /* Brother1816-Light.ttf */ = {isa = PBXFileReference; name = "Brother1816-Light.ttf"; path = "../assets/fonts/Brother1816-Light.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		6B7E3D46DD4B4D64B97D05DD /* Brother1816-Light.woff */ = {isa = PBXFileReference; name = "Brother1816-Light.woff"; path = "../assets/fonts/Brother1816-Light.woff"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		AB5F07B575C34025B7E9C190 /* Brother1816-Light.woff2 */ = {isa = PBXFileReference; name = "Brother1816-Light.woff2"; path = "../assets/fonts/Brother1816-Light.woff2"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		697604E46F814FF5A2A1C58D /* Brother1816-LightItalic.ttf */ = {isa = PBXFileReference; name = "Brother1816-LightItalic.ttf"; path = "../assets/fonts/Brother1816-LightItalic.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		87EDEA212753431BB27B5E92 /* Brother1816-LightItalic.woff */ = {isa = PBXFileReference; name = "Brother1816-LightItalic.woff"; path = "../assets/fonts/Brother1816-LightItalic.woff"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		01BD101E31B846608F18CA83 /* Brother1816-LightItalic.woff2 */ = {isa = PBXFileReference; name = "Brother1816-LightItalic.woff2"; path = "../assets/fonts/Brother1816-LightItalic.woff2"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		8741BB8A57594F2586A7F862 /* Brother1816-Medium.ttf */ = {isa = PBXFileReference; name = "Brother1816-Medium.ttf"; path = "../assets/fonts/Brother1816-Medium.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		61DAA7E451374D15BA90F618 /* Brother1816-Medium.woff */ = {isa = PBXFileReference; name = "Brother1816-Medium.woff"; path = "../assets/fonts/Brother1816-Medium.woff"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		B3F1A1C9652A4EECBF1006B8 /* Brother1816-Medium.woff2 */ = {isa = PBXFileReference; name = "Brother1816-Medium.woff2"; path = "../assets/fonts/Brother1816-Medium.woff2"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		EEEC839B263F4FA686D74386 /* Brother1816-MediumItalic.ttf */ = {isa = PBXFileReference; name = "Brother1816-MediumItalic.ttf"; path = "../assets/fonts/Brother1816-MediumItalic.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		4B8408B74DD5481E8B3BF0C8 /* Brother1816-MediumItalic.woff */ = {isa = PBXFileReference; name = "Brother1816-MediumItalic.woff"; path = "../assets/fonts/Brother1816-MediumItalic.woff"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		FA7C2910E4574BD5929938AD /* Brother1816-MediumItalic.woff2 */ = {isa = PBXFileReference; name = "Brother1816-MediumItalic.woff2"; path = "../assets/fonts/Brother1816-MediumItalic.woff2"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		9815B5558EA04A5F8C91476B /* Brother1816-Regular.ttf */ = {isa = PBXFileReference; name = "Brother1816-Regular.ttf"; path = "../assets/fonts/Brother1816-Regular.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		146C12366DC54F608801DD47 /* Brother1816-Regular.woff */ = {isa = PBXFileReference; name = "Brother1816-Regular.woff"; path = "../assets/fonts/Brother1816-Regular.woff"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		39B8168F65204BBDA4137130 /* Brother1816-Regular.woff2 */ = {isa = PBXFileReference; name = "Brother1816-Regular.woff2"; path = "../assets/fonts/Brother1816-Regular.woff2"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		9DE4BF2B886D4BA1B4A3C51E /* Brother1816-Regulartalic.ttf */ = {isa = PBXFileReference; name = "Brother1816-Regulartalic.ttf"; path = "../assets/fonts/Brother1816-Regulartalic.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		3563CDB46B2347AF980D619F /* Brother1816-Regulartalic.woff */ = {isa = PBXFileReference; name = "Brother1816-Regulartalic.woff"; path = "../assets/fonts/Brother1816-Regulartalic.woff"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		38DE135DE9E44F6D9329E8CE /* Brother1816-Regulartalic.woff2 */ = {isa = PBXFileReference; name = "Brother1816-Regulartalic.woff2"; path = "../assets/fonts/Brother1816-Regulartalic.woff2"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		51F862ABD8E243F69F8491B7 /* Brother1816-Thin.ttf */ = {isa = PBXFileReference; name = "Brother1816-Thin.ttf"; path = "../assets/fonts/Brother1816-Thin.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		F922310D6BA7484E87D926EC /* Brother1816-Thin.woff */ = {isa = PBXFileReference; name = "Brother1816-Thin.woff"; path = "../assets/fonts/Brother1816-Thin.woff"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		AC8F91BE48144ECDACE9BAC9 /* Brother1816-Thin.woff2 */ = {isa = PBXFileReference; name = "Brother1816-Thin.woff2"; path = "../assets/fonts/Brother1816-Thin.woff2"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		C1E2C73B5D8146798D626CE4 /* Brother1816-ThinItalic.ttf */ = {isa = PBXFileReference; name = "Brother1816-ThinItalic.ttf"; path = "../assets/fonts/Brother1816-ThinItalic.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		C83C534FE2FC4DC4BEF3BE48 /* Brother1816-ThinItalic.woff */ = {isa = PBXFileReference; name = "Brother1816-ThinItalic.woff"; path = "../assets/fonts/Brother1816-ThinItalic.woff"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		142C1B6251AC49858D509918 /* Brother1816-ThinItalic.woff2 */ = {isa = PBXFileReference; name = "Brother1816-ThinItalic.woff2"; path = "../assets/fonts/Brother1816-ThinItalic.woff2"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		F1ED62AF319F411A922828A1 /* Brother1816Printed-Black.ttf */ = {isa = PBXFileReference; name = "Brother1816Printed-Black.ttf"; path = "../assets/fonts/Brother1816Printed-Black.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		42459E5E170D4089814450C9 /* Brother1816Printed-Black.woff */ = {isa = PBXFileReference; name = "Brother1816Printed-Black.woff"; path = "../assets/fonts/Brother1816Printed-Black.woff"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		7862358E835A431D9473D262 /* Brother1816Printed-Black.woff2 */ = {isa = PBXFileReference; name = "Brother1816Printed-Black.woff2"; path = "../assets/fonts/Brother1816Printed-Black.woff2"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		EAAC29BE19B04AA3AAFE7BB3 /* Brother1816Printed-BlackItalic.ttf */ = {isa = PBXFileReference; name = "Brother1816Printed-BlackItalic.ttf"; path = "../assets/fonts/Brother1816Printed-BlackItalic.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		27B63890F5104E61BC3D9C32 /* Brother1816Printed-BlackItalic.woff */ = {isa = PBXFileReference; name = "Brother1816Printed-BlackItalic.woff"; path = "../assets/fonts/Brother1816Printed-BlackItalic.woff"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		CD7A76202EFD42D5835A9CF1 /* Brother1816Printed-BlackItalic.woff2 */ = {isa = PBXFileReference; name = "Brother1816Printed-BlackItalic.woff2"; path = "../assets/fonts/Brother1816Printed-BlackItalic.woff2"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		3D7647EC943E488B918A03DC /* Brother1816Printed-Bold.ttf */ = {isa = PBXFileReference; name = "Brother1816Printed-Bold.ttf"; path = "../assets/fonts/Brother1816Printed-Bold.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		F48DA8BAC1424B28BA598179 /* Brother1816Printed-Bold.woff */ = {isa = PBXFileReference; name = "Brother1816Printed-Bold.woff"; path = "../assets/fonts/Brother1816Printed-Bold.woff"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		D705308A0385448FA0F3DE37 /* Brother1816Printed-Bold.woff2 */ = {isa = PBXFileReference; name = "Brother1816Printed-Bold.woff2"; path = "../assets/fonts/Brother1816Printed-Bold.woff2"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		A1A0703F63324ADD8B81DCE9 /* Brother1816Printed-BoldItalic.ttf */ = {isa = PBXFileReference; name = "Brother1816Printed-BoldItalic.ttf"; path = "../assets/fonts/Brother1816Printed-BoldItalic.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		C947990FD87A43E5AE708C0C /* Brother1816Printed-BoldItalic.woff */ = {isa = PBXFileReference; name = "Brother1816Printed-BoldItalic.woff"; path = "../assets/fonts/Brother1816Printed-BoldItalic.woff"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		EFCFE45B11EE45EFA425CC4B /* Brother1816Printed-BoldItalic.woff2 */ = {isa = PBXFileReference; name = "Brother1816Printed-BoldItalic.woff2"; path = "../assets/fonts/Brother1816Printed-BoldItalic.woff2"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		BBB90BE31F524165B74222B2 /* Brother1816Printed-Book.ttf */ = {isa = PBXFileReference; name = "Brother1816Printed-Book.ttf"; path = "../assets/fonts/Brother1816Printed-Book.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		FE6CD9C4CC844966A129F51C /* Brother1816Printed-Book.woff */ = {isa = PBXFileReference; name = "Brother1816Printed-Book.woff"; path = "../assets/fonts/Brother1816Printed-Book.woff"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		B7AB80603D2A47BFA9BC2F5D /* Brother1816Printed-Book.woff2 */ = {isa = PBXFileReference; name = "Brother1816Printed-Book.woff2"; path = "../assets/fonts/Brother1816Printed-Book.woff2"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		8D6D5D75AA654B06A7AE42CD /* Brother1816Printed-BookItalic.ttf */ = {isa = PBXFileReference; name = "Brother1816Printed-BookItalic.ttf"; path = "../assets/fonts/Brother1816Printed-BookItalic.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		4CFA481FAC6842B0991E9208 /* Brother1816Printed-BookItalic.woff */ = {isa = PBXFileReference; name = "Brother1816Printed-BookItalic.woff"; path = "../assets/fonts/Brother1816Printed-BookItalic.woff"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		C5C7F14A81A94077894B3882 /* Brother1816Printed-BookItalic.woff2 */ = {isa = PBXFileReference; name = "Brother1816Printed-BookItalic.woff2"; path = "../assets/fonts/Brother1816Printed-BookItalic.woff2"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		8E098419390D4B3E8F456FE1 /* Brother1816Printed-ExtraBold.ttf */ = {isa = PBXFileReference; name = "Brother1816Printed-ExtraBold.ttf"; path = "../assets/fonts/Brother1816Printed-ExtraBold.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		C2F1D3253BED43A78F255DEA /* Brother1816Printed-ExtraBold.woff */ = {isa = PBXFileReference; name = "Brother1816Printed-ExtraBold.woff"; path = "../assets/fonts/Brother1816Printed-ExtraBold.woff"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		3FEEBB9212F7468784F3D416 /* Brother1816Printed-ExtraBold.woff2 */ = {isa = PBXFileReference; name = "Brother1816Printed-ExtraBold.woff2"; path = "../assets/fonts/Brother1816Printed-ExtraBold.woff2"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		77150AFBA0A54D52B44E8F15 /* Brother1816Printed-ExtraBoldIta.ttf */ = {isa = PBXFileReference; name = "Brother1816Printed-ExtraBoldIta.ttf"; path = "../assets/fonts/Brother1816Printed-ExtraBoldIta.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		92CA0105F4FB4621975C4D53 /* Brother1816Printed-ExtraBoldIta.woff */ = {isa = PBXFileReference; name = "Brother1816Printed-ExtraBoldIta.woff"; path = "../assets/fonts/Brother1816Printed-ExtraBoldIta.woff"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		008D0B968B6844FAB74818DD /* Brother1816Printed-ExtraBoldIta.woff2 */ = {isa = PBXFileReference; name = "Brother1816Printed-ExtraBoldIta.woff2"; path = "../assets/fonts/Brother1816Printed-ExtraBoldIta.woff2"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		A72F5058A8734464867DB8C2 /* Brother1816Printed-Light.ttf */ = {isa = PBXFileReference; name = "Brother1816Printed-Light.ttf"; path = "../assets/fonts/Brother1816Printed-Light.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		11C41B950B3A499D95CEFF9C /* Brother1816Printed-Light.woff */ = {isa = PBXFileReference; name = "Brother1816Printed-Light.woff"; path = "../assets/fonts/Brother1816Printed-Light.woff"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		6C8FCF62C72F4F51AECE64F7 /* Brother1816Printed-Light.woff2 */ = {isa = PBXFileReference; name = "Brother1816Printed-Light.woff2"; path = "../assets/fonts/Brother1816Printed-Light.woff2"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		68CC8FFC2B7241DBAA5F10DA /* Brother1816Printed-LightItalic.ttf */ = {isa = PBXFileReference; name = "Brother1816Printed-LightItalic.ttf"; path = "../assets/fonts/Brother1816Printed-LightItalic.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		DF7476CFDA404F3F9B10CAD7 /* Brother1816Printed-LightItalic.woff */ = {isa = PBXFileReference; name = "Brother1816Printed-LightItalic.woff"; path = "../assets/fonts/Brother1816Printed-LightItalic.woff"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		89EBAD905A854D6BA8005A05 /* Brother1816Printed-LightItalic.woff2 */ = {isa = PBXFileReference; name = "Brother1816Printed-LightItalic.woff2"; path = "../assets/fonts/Brother1816Printed-LightItalic.woff2"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		249215E89AB047B0BDB9C273 /* Brother1816Printed-Medium.ttf */ = {isa = PBXFileReference; name = "Brother1816Printed-Medium.ttf"; path = "../assets/fonts/Brother1816Printed-Medium.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		064601F80CE94B74AA7ECDD7 /* Brother1816Printed-Medium.woff */ = {isa = PBXFileReference; name = "Brother1816Printed-Medium.woff"; path = "../assets/fonts/Brother1816Printed-Medium.woff"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		9F0DAE36836E447FA4B844A9 /* Brother1816Printed-Medium.woff2 */ = {isa = PBXFileReference; name = "Brother1816Printed-Medium.woff2"; path = "../assets/fonts/Brother1816Printed-Medium.woff2"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		732E6935405E41A3981F4E51 /* Brother1816Printed-MediumItalic.ttf */ = {isa = PBXFileReference; name = "Brother1816Printed-MediumItalic.ttf"; path = "../assets/fonts/Brother1816Printed-MediumItalic.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		BBBFAD01F6284DCAA5BF694C /* Brother1816Printed-MediumItalic.woff */ = {isa = PBXFileReference; name = "Brother1816Printed-MediumItalic.woff"; path = "../assets/fonts/Brother1816Printed-MediumItalic.woff"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		9A864BF4F1904D22832E54A4 /* Brother1816Printed-MediumItalic.woff2 */ = {isa = PBXFileReference; name = "Brother1816Printed-MediumItalic.woff2"; path = "../assets/fonts/Brother1816Printed-MediumItalic.woff2"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		32FBED6FE7614DC7914B9EAC /* Brother1816Printed-Regular.ttf */ = {isa = PBXFileReference; name = "Brother1816Printed-Regular.ttf"; path = "../assets/fonts/Brother1816Printed-Regular.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		C484D63AD1634B20B2A23108 /* Brother1816Printed-Regular.woff */ = {isa = PBXFileReference; name = "Brother1816Printed-Regular.woff"; path = "../assets/fonts/Brother1816Printed-Regular.woff"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		30E253D9D87A4BACA4CC6559 /* Brother1816Printed-Regular.woff2 */ = {isa = PBXFileReference; name = "Brother1816Printed-Regular.woff2"; path = "../assets/fonts/Brother1816Printed-Regular.woff2"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		0016FCD7CE7148A1AE3F8CBA /* Brother1816Printed-RegularItali.ttf */ = {isa = PBXFileReference; name = "Brother1816Printed-RegularItali.ttf"; path = "../assets/fonts/Brother1816Printed-RegularItali.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		051C3F45654A4DF09C7AD979 /* Brother1816Printed-RegularItali.woff */ = {isa = PBXFileReference; name = "Brother1816Printed-RegularItali.woff"; path = "../assets/fonts/Brother1816Printed-RegularItali.woff"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		03DB8E5E002D40F4A90E7E11 /* Brother1816Printed-RegularItali.woff2 */ = {isa = PBXFileReference; name = "Brother1816Printed-RegularItali.woff2"; path = "../assets/fonts/Brother1816Printed-RegularItali.woff2"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		9AD1C3E6731342B38B437960 /* Brother1816Printed-Thin.ttf */ = {isa = PBXFileReference; name = "Brother1816Printed-Thin.ttf"; path = "../assets/fonts/Brother1816Printed-Thin.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		46273B41ABCB48E993EA64C6 /* Brother1816Printed-Thin.woff */ = {isa = PBXFileReference; name = "Brother1816Printed-Thin.woff"; path = "../assets/fonts/Brother1816Printed-Thin.woff"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		25D25A3A64D443E0AE30B952 /* Brother1816Printed-Thin.woff2 */ = {isa = PBXFileReference; name = "Brother1816Printed-Thin.woff2"; path = "../assets/fonts/Brother1816Printed-Thin.woff2"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		C26DA8FC19CB481F87805E0F /* Brother1816Printed-ThinItalic.ttf */ = {isa = PBXFileReference; name = "Brother1816Printed-ThinItalic.ttf"; path = "../assets/fonts/Brother1816Printed-ThinItalic.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		63768403E11B416EB4A46B0B /* Brother1816Printed-ThinItalic.woff */ = {isa = PBXFileReference; name = "Brother1816Printed-ThinItalic.woff"; path = "../assets/fonts/Brother1816Printed-ThinItalic.woff"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		BBA07D52E47A429C86984920 /* Brother1816Printed-ThinItalic.woff2 */ = {isa = PBXFileReference; name = "Brother1816Printed-ThinItalic.woff2"; path = "../assets/fonts/Brother1816Printed-ThinItalic.woff2"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		C214569DDF39406593C6AADA /* AntDesign.ttf */ = {isa = PBXFileReference; name = "AntDesign.ttf"; path = "../node_modules/react-native-vector-icons/Fonts/AntDesign.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		66E0E363F50B4B13B1388E9B /* Entypo.ttf */ = {isa = PBXFileReference; name = "Entypo.ttf"; path = "../node_modules/react-native-vector-icons/Fonts/Entypo.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		7658412411744A38A3028BD3 /* EvilIcons.ttf */ = {isa = PBXFileReference; name = "EvilIcons.ttf"; path = "../node_modules/react-native-vector-icons/Fonts/EvilIcons.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		FDC18B96E3364508B90D722C /* Feather.ttf */ = {isa = PBXFileReference; name = "Feather.ttf"; path = "../node_modules/react-native-vector-icons/Fonts/Feather.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		807ACBFC0B2A452AA5EB7B28 /* FontAwesome.ttf */ = {isa = PBXFileReference; name = "FontAwesome.ttf"; path = "../node_modules/react-native-vector-icons/Fonts/FontAwesome.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		00A8BEA7BBE148F2A25B8B0D /* FontAwesome5_Brands.ttf */ = {isa = PBXFileReference; name = "FontAwesome5_Brands.ttf"; path = "../node_modules/react-native-vector-icons/Fonts/FontAwesome5_Brands.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		FD273F5F634A4BA58B122B55 /* FontAwesome5_Regular.ttf */ = {isa = PBXFileReference; name = "FontAwesome5_Regular.ttf"; path = "../node_modules/react-native-vector-icons/Fonts/FontAwesome5_Regular.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		C1F747EADAE34B2D850DF8F8 /* FontAwesome5_Solid.ttf */ = {isa = PBXFileReference; name = "FontAwesome5_Solid.ttf"; path = "../node_modules/react-native-vector-icons/Fonts/FontAwesome5_Solid.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		C138CFEF9BE84ED19AEC8D4B /* Fontisto.ttf */ = {isa = PBXFileReference; name = "Fontisto.ttf"; path = "../node_modules/react-native-vector-icons/Fonts/Fontisto.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		4B305210C1594A4F9B964C30 /* Foundation.ttf */ = {isa = PBXFileReference; name = "Foundation.ttf"; path = "../node_modules/react-native-vector-icons/Fonts/Foundation.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		D9BA2A8F68EB4AEC99FCBDC4 /* Ionicons.ttf */ = {isa = PBXFileReference; name = "Ionicons.ttf"; path = "../node_modules/react-native-vector-icons/Fonts/Ionicons.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		783555C9EBCC44028B21EF10 /* MaterialCommunityIcons.ttf */ = {isa = PBXFileReference; name = "MaterialCommunityIcons.ttf"; path = "../node_modules/react-native-vector-icons/Fonts/MaterialCommunityIcons.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		712C886EF6D349A4ACC404CF /* MaterialIcons.ttf */ = {isa = PBXFileReference; name = "MaterialIcons.ttf"; path = "../node_modules/react-native-vector-icons/Fonts/MaterialIcons.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		02EC2C04C5844CF4A8814387 /* Octicons.ttf */ = {isa = PBXFileReference; name = "Octicons.ttf"; path = "../node_modules/react-native-vector-icons/Fonts/Octicons.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		D016B3E86F944779A315C34D /* SimpleLineIcons.ttf */ = {isa = PBXFileReference; name = "SimpleLineIcons.ttf"; path = "../node_modules/react-native-vector-icons/Fonts/SimpleLineIcons.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		4216BE2651334598BF5B02A0 /* Zocial.ttf */ = {isa = PBXFileReference; name = "Zocial.ttf"; path = "../node_modules/react-native-vector-icons/Fonts/Zocial.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -161,7 +645,6 @@
 				1FADB9C6EC2A80D1EB473D84 /* Pods-Test1Tests.debug.xcconfig */,
 				297BD6E316BB8DC59449414D /* Pods-Test1Tests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -175,12 +658,14 @@
 		83CBB9F61A601CBA00E9B192 = {
 			isa = PBXGroup;
 			children = (
+				A1EEF9DC23E1A3E200649E56 /* fonts */,
 				13B07FAE1A68108700A75B9A /* Test1 */,
 				832341AE1AAA6A7D00B99B32 /* Libraries */,
 				00E356EF1AD99517003FC87E /* Test1Tests */,
 				83CBBA001A601CBA00E9B192 /* Products */,
 				2D16E6871FA4F8E400B85C8A /* Frameworks */,
 				61C6131666D4E70925937A44 /* Pods */,
+				A8D306F17D8847ABB6276D14 /* Resources */,
 			);
 			indentWidth = 2;
 			sourceTree = "<group>";
@@ -197,6 +682,263 @@
 			);
 			name = Products;
 			sourceTree = "<group>";
+		};
+		A1EEF9DC23E1A3E200649E56 /* fonts */ = {
+			isa = PBXGroup;
+			children = (
+				A1EEFA0C23E1A45600649E56 /* Brother1816-Black.eot */,
+				A1EEFA0823E1A45500649E56 /* Brother1816-Black.ttf */,
+				A1EEF9DF23E1A45200649E56 /* Brother1816-Black.woff */,
+				A1EEFA4423E1A45B00649E56 /* Brother1816-Black.woff2 */,
+				A1EEF9DE23E1A45200649E56 /* Brother1816-BlackItalic.eot */,
+				A1EEFA4123E1A45B00649E56 /* Brother1816-BlackItalic.ttf */,
+				A1EEFA2423E1A45800649E56 /* Brother1816-BlackItalic.woff */,
+				A1EEFA5B23E1A45D00649E56 /* Brother1816-BlackItalic.woff2 */,
+				A1EEFA0923E1A45500649E56 /* Brother1816-Bold.eot */,
+				A1EEFA1B23E1A45700649E56 /* Brother1816-Bold.ttf */,
+				A1EEFA1E23E1A45800649E56 /* Brother1816-Bold.woff */,
+				A1EEF9E923E1A45200649E56 /* Brother1816-Bold.woff2 */,
+				A1EEF9FB23E1A45400649E56 /* Brother1816-BoldItalic.eot */,
+				A1EEF9F523E1A45300649E56 /* Brother1816-BoldItalic.ttf */,
+				A1EEFA5323E1A45D00649E56 /* Brother1816-BoldItalic.woff */,
+				A1EEF9EE23E1A45300649E56 /* Brother1816-BoldItalic.woff2 */,
+				A1EEFA1623E1A45700649E56 /* Brother1816-Book.eot */,
+				A1EEFA3423E1A45A00649E56 /* Brother1816-Book.ttf */,
+				A1EEF9EC23E1A45200649E56 /* Brother1816-Book.woff */,
+				A1EEFA2123E1A45800649E56 /* Brother1816-Book.woff2 */,
+				A1EEFA0523E1A45500649E56 /* Brother1816-BookItalic.eot */,
+				A1EEFA1F23E1A45800649E56 /* Brother1816-BookItalic.ttf */,
+				A1EEFA5023E1A45C00649E56 /* Brother1816-BookItalic.woff */,
+				A1EEFA2C23E1A45900649E56 /* Brother1816-BookItalic.woff2 */,
+				A1EEFA2F23E1A45900649E56 /* Brother1816-ExtraBold.eot */,
+				A1EEFA3323E1A45A00649E56 /* Brother1816-ExtraBold.ttf */,
+				A1EEF9FE23E1A45400649E56 /* Brother1816-ExtraBold.woff */,
+				A1EEFA4023E1A45B00649E56 /* Brother1816-ExtraBold.woff2 */,
+				A1EEFA3123E1A45900649E56 /* Brother1816-ExtraBoldItalic.eot */,
+				A1EEFA3023E1A45900649E56 /* Brother1816-ExtraBoldItalic.ttf */,
+				A1EEF9F023E1A45300649E56 /* Brother1816-ExtraBoldItalic.woff */,
+				A1EEF9E223E1A45200649E56 /* Brother1816-ExtraBoldItalic.woff2 */,
+				A1EEF9FA23E1A45400649E56 /* Brother1816-Light.eot */,
+				A1EEF9EF23E1A45300649E56 /* Brother1816-Light.ttf */,
+				A1EEFA5123E1A45C00649E56 /* Brother1816-Light.woff */,
+				A1EEF9EB23E1A45200649E56 /* Brother1816-Light.woff2 */,
+				A1EEFA0423E1A45500649E56 /* Brother1816-LightItalic.eot */,
+				A1EEFA4623E1A45B00649E56 /* Brother1816-LightItalic.ttf */,
+				A1EEFA5223E1A45D00649E56 /* Brother1816-LightItalic.woff */,
+				A1EEFA1223E1A45600649E56 /* Brother1816-LightItalic.woff2 */,
+				A1EEFA1823E1A45700649E56 /* Brother1816-Medium.eot */,
+				A1EEF9F723E1A45300649E56 /* Brother1816-Medium.ttf */,
+				A1EEFA0F23E1A45600649E56 /* Brother1816-Medium.woff */,
+				A1EEFA2023E1A45800649E56 /* Brother1816-Medium.woff2 */,
+				A1EEFA1323E1A45600649E56 /* Brother1816-MediumItalic.eot */,
+				A1EEFA4B23E1A45C00649E56 /* Brother1816-MediumItalic.ttf */,
+				A1EEFA2323E1A45800649E56 /* Brother1816-MediumItalic.woff */,
+				A1EEFA3623E1A45A00649E56 /* Brother1816-MediumItalic.woff2 */,
+				A1EEFA3723E1A45A00649E56 /* Brother1816-Regular.eot */,
+				A1EEF9EA23E1A45200649E56 /* Brother1816-Regular.ttf */,
+				A1EEF9FD23E1A45400649E56 /* Brother1816-Regular.woff */,
+				A1EEF9FF23E1A45400649E56 /* Brother1816-Regular.woff2 */,
+				A1EEFA3923E1A45A00649E56 /* Brother1816-Regulartalic.eot */,
+				A1EEFA5723E1A45D00649E56 /* Brother1816-Regulartalic.ttf */,
+				A1EEFA2B23E1A45900649E56 /* Brother1816-Regulartalic.woff */,
+				A1EEFA3F23E1A45B00649E56 /* Brother1816-Regulartalic.woff2 */,
+				A1EEFA5523E1A45D00649E56 /* Brother1816-Thin.eot */,
+				A1EEFA0323E1A45500649E56 /* Brother1816-Thin.ttf */,
+				A1EEF9E623E1A45200649E56 /* Brother1816-Thin.woff */,
+				A1EEFA4E23E1A45C00649E56 /* Brother1816-Thin.woff2 */,
+				A1EEF9E823E1A45200649E56 /* Brother1816-ThinItalic.eot */,
+				A1EEFA3223E1A45900649E56 /* Brother1816-ThinItalic.ttf */,
+				A1EEFA5623E1A45D00649E56 /* Brother1816-ThinItalic.woff */,
+				A1EEFA4223E1A45B00649E56 /* Brother1816-ThinItalic.woff2 */,
+				A1EEF9E523E1A45200649E56 /* Brother1816Printed-Black.eot */,
+				A1EEFA4A23E1A45C00649E56 /* Brother1816Printed-Black.ttf */,
+				A1EEFA0223E1A45500649E56 /* Brother1816Printed-Black.woff */,
+				A1EEF9E123E1A45200649E56 /* Brother1816Printed-Black.woff2 */,
+				A1EEFA5A23E1A45D00649E56 /* Brother1816Printed-BlackItalic.eot */,
+				A1EEF9F923E1A45400649E56 /* Brother1816Printed-BlackItalic.ttf */,
+				A1EEFA1D23E1A45700649E56 /* Brother1816Printed-BlackItalic.woff */,
+				A1EEFA1923E1A45700649E56 /* Brother1816Printed-BlackItalic.woff2 */,
+				A1EEFA3D23E1A45A00649E56 /* Brother1816Printed-Bold.eot */,
+				A1EEFA2723E1A45800649E56 /* Brother1816Printed-Bold.ttf */,
+				A1EEFA2223E1A45800649E56 /* Brother1816Printed-Bold.woff */,
+				A1EEF9ED23E1A45200649E56 /* Brother1816Printed-Bold.woff2 */,
+				A1EEFA0D23E1A45600649E56 /* Brother1816Printed-BoldItalic.eot */,
+				A1EEFA0E23E1A45600649E56 /* Brother1816Printed-BoldItalic.ttf */,
+				A1EEFA3523E1A45A00649E56 /* Brother1816Printed-BoldItalic.woff */,
+				A1EEFA1023E1A45600649E56 /* Brother1816Printed-BoldItalic.woff2 */,
+				A1EEFA2623E1A45800649E56 /* Brother1816Printed-Book.eot */,
+				A1EEFA4523E1A45B00649E56 /* Brother1816Printed-Book.ttf */,
+				A1EEFA0A23E1A45500649E56 /* Brother1816Printed-Book.woff */,
+				A1EEFA5423E1A45D00649E56 /* Brother1816Printed-Book.woff2 */,
+				A1EEFA1523E1A45700649E56 /* Brother1816Printed-BookItalic.eot */,
+				A1EEFA1723E1A45700649E56 /* Brother1816Printed-BookItalic.ttf */,
+				A1EEFA4923E1A45C00649E56 /* Brother1816Printed-BookItalic.woff */,
+				A1EEFA2A23E1A45900649E56 /* Brother1816Printed-BookItalic.woff2 */,
+				A1EEFA2E23E1A45900649E56 /* Brother1816Printed-ExtraBold.eot */,
+				A1EEF9E323E1A45200649E56 /* Brother1816Printed-ExtraBold.ttf */,
+				A1EEFA3B23E1A45A00649E56 /* Brother1816Printed-ExtraBold.woff */,
+				A1EEF9DD23E1A45100649E56 /* Brother1816Printed-ExtraBold.woff2 */,
+				A1EEF9F323E1A45300649E56 /* Brother1816Printed-ExtraBoldIta.eot */,
+				A1EEFA0623E1A45500649E56 /* Brother1816Printed-ExtraBoldIta.ttf */,
+				A1EEFA4C23E1A45C00649E56 /* Brother1816Printed-ExtraBoldIta.woff */,
+				A1EEFA1423E1A45600649E56 /* Brother1816Printed-ExtraBoldIta.woff2 */,
+				A1EEFA3823E1A45A00649E56 /* Brother1816Printed-Light.eot */,
+				A1EEFA2523E1A45800649E56 /* Brother1816Printed-Light.ttf */,
+				A1EEFA5823E1A45D00649E56 /* Brother1816Printed-Light.woff */,
+				A1EEFA2923E1A45900649E56 /* Brother1816Printed-Light.woff2 */,
+				A1EEFA1123E1A45600649E56 /* Brother1816Printed-LightItalic.eot */,
+				A1EEFA0023E1A45400649E56 /* Brother1816Printed-LightItalic.ttf */,
+				A1EEF9FC23E1A45400649E56 /* Brother1816Printed-LightItalic.woff */,
+				A1EEFA2D23E1A45900649E56 /* Brother1816Printed-LightItalic.woff2 */,
+				A1EEFA2823E1A45800649E56 /* Brother1816Printed-Medium.eot */,
+				A1EEFA3C23E1A45A00649E56 /* Brother1816Printed-Medium.ttf */,
+				A1EEF9F423E1A45300649E56 /* Brother1816Printed-Medium.woff */,
+				A1EEFA3E23E1A45B00649E56 /* Brother1816Printed-Medium.woff2 */,
+				A1EEFA0723E1A45500649E56 /* Brother1816Printed-MediumItalic.eot */,
+				A1EEFA0B23E1A45600649E56 /* Brother1816Printed-MediumItalic.ttf */,
+				A1EEFA5C23E1A45D00649E56 /* Brother1816Printed-MediumItalic.woff */,
+				A1EEF9E423E1A45200649E56 /* Brother1816Printed-MediumItalic.woff2 */,
+				A1EEF9F123E1A45300649E56 /* Brother1816Printed-Regular.eot */,
+				A1EEF9E023E1A45200649E56 /* Brother1816Printed-Regular.ttf */,
+				A1EEF9F223E1A45300649E56 /* Brother1816Printed-Regular.woff */,
+				A1EEFA4F23E1A45C00649E56 /* Brother1816Printed-Regular.woff2 */,
+				A1EEFA5D23E1A45E00649E56 /* Brother1816Printed-RegularItali.eot */,
+				A1EEFA5E23E1A45E00649E56 /* Brother1816Printed-RegularItali.ttf */,
+				A1EEFA5923E1A45D00649E56 /* Brother1816Printed-RegularItali.woff */,
+				A1EEFA4823E1A45C00649E56 /* Brother1816Printed-RegularItali.woff2 */,
+				A1EEFA4D23E1A45C00649E56 /* Brother1816Printed-Thin.eot */,
+				A1EEF9F623E1A45300649E56 /* Brother1816Printed-Thin.ttf */,
+				A1EEF9E723E1A45200649E56 /* Brother1816Printed-Thin.woff */,
+				A1EEFA3A23E1A45A00649E56 /* Brother1816Printed-Thin.woff2 */,
+				A1EEFA1C23E1A45700649E56 /* Brother1816Printed-ThinItalic.eot */,
+				A1EEFA1A23E1A45700649E56 /* Brother1816Printed-ThinItalic.ttf */,
+				A1EEFA0123E1A45400649E56 /* Brother1816Printed-ThinItalic.woff */,
+				A1EEFA4723E1A45B00649E56 /* Brother1816Printed-ThinItalic.woff2 */,
+				A1EEF9F823E1A45400649E56 /* demo.html */,
+				A1EEFA4323E1A45B00649E56 /* stylesheet.css */,
+			);
+			path = fonts;
+			sourceTree = "<group>";
+		};
+		A8D306F17D8847ABB6276D14 /* Resources */ = {
+			isa = "PBXGroup";
+			children = (
+				5CB8137651FB4B2A94D1960E /* Brother1816-Black.ttf */,
+				1A534BE498FC48778A439E1F /* Brother1816-Black.woff */,
+				27CC6821CB764265AB777B51 /* Brother1816-Black.woff2 */,
+				91DC06C843124B56B331429C /* Brother1816-BlackItalic.ttf */,
+				92730C4BA3BC4302BE94368B /* Brother1816-BlackItalic.woff */,
+				10AB981EA1E7468E95465C41 /* Brother1816-BlackItalic.woff2 */,
+				555DF356CE26466384B9565C /* Brother1816-Bold.ttf */,
+				97B3FA96C15442A69744B03C /* Brother1816-Bold.woff */,
+				7F09C697383449C2B439C5FA /* Brother1816-Bold.woff2 */,
+				114A10DE65474FEEBA275B4A /* Brother1816-BoldItalic.ttf */,
+				882D887F3269413B9B164297 /* Brother1816-BoldItalic.woff */,
+				F3EB3BC8D7064D84B75929EE /* Brother1816-BoldItalic.woff2 */,
+				BC3A76D1659D4697BC2D90FD /* Brother1816-Book.ttf */,
+				DFCE52BEFBB34D15B710210D /* Brother1816-Book.woff */,
+				9B73D86397F7469A9D41D7B2 /* Brother1816-Book.woff2 */,
+				7C9D5F125AA545C58ECD86B6 /* Brother1816-BookItalic.ttf */,
+				BC4EA874490147FDAA86FE01 /* Brother1816-BookItalic.woff */,
+				52202DFD7CC34C37AB53407D /* Brother1816-BookItalic.woff2 */,
+				A56E2D1D1CA942E1B0E38E33 /* Brother1816-ExtraBold.ttf */,
+				2447F396789E41AE8A8435BE /* Brother1816-ExtraBold.woff */,
+				70BF4F8A4C5943119DA15621 /* Brother1816-ExtraBold.woff2 */,
+				42DA379148354763B2AA91FB /* Brother1816-ExtraBoldItalic.ttf */,
+				A52B47D40D83416399A1D426 /* Brother1816-ExtraBoldItalic.woff */,
+				0715BF5ED9BF4BB9B1B2F443 /* Brother1816-ExtraBoldItalic.woff2 */,
+				9A08C83A3B5E4A28825129E2 /* Brother1816-Light.ttf */,
+				6B7E3D46DD4B4D64B97D05DD /* Brother1816-Light.woff */,
+				AB5F07B575C34025B7E9C190 /* Brother1816-Light.woff2 */,
+				697604E46F814FF5A2A1C58D /* Brother1816-LightItalic.ttf */,
+				87EDEA212753431BB27B5E92 /* Brother1816-LightItalic.woff */,
+				01BD101E31B846608F18CA83 /* Brother1816-LightItalic.woff2 */,
+				8741BB8A57594F2586A7F862 /* Brother1816-Medium.ttf */,
+				61DAA7E451374D15BA90F618 /* Brother1816-Medium.woff */,
+				B3F1A1C9652A4EECBF1006B8 /* Brother1816-Medium.woff2 */,
+				EEEC839B263F4FA686D74386 /* Brother1816-MediumItalic.ttf */,
+				4B8408B74DD5481E8B3BF0C8 /* Brother1816-MediumItalic.woff */,
+				FA7C2910E4574BD5929938AD /* Brother1816-MediumItalic.woff2 */,
+				9815B5558EA04A5F8C91476B /* Brother1816-Regular.ttf */,
+				146C12366DC54F608801DD47 /* Brother1816-Regular.woff */,
+				39B8168F65204BBDA4137130 /* Brother1816-Regular.woff2 */,
+				9DE4BF2B886D4BA1B4A3C51E /* Brother1816-Regulartalic.ttf */,
+				3563CDB46B2347AF980D619F /* Brother1816-Regulartalic.woff */,
+				38DE135DE9E44F6D9329E8CE /* Brother1816-Regulartalic.woff2 */,
+				51F862ABD8E243F69F8491B7 /* Brother1816-Thin.ttf */,
+				F922310D6BA7484E87D926EC /* Brother1816-Thin.woff */,
+				AC8F91BE48144ECDACE9BAC9 /* Brother1816-Thin.woff2 */,
+				C1E2C73B5D8146798D626CE4 /* Brother1816-ThinItalic.ttf */,
+				C83C534FE2FC4DC4BEF3BE48 /* Brother1816-ThinItalic.woff */,
+				142C1B6251AC49858D509918 /* Brother1816-ThinItalic.woff2 */,
+				F1ED62AF319F411A922828A1 /* Brother1816Printed-Black.ttf */,
+				42459E5E170D4089814450C9 /* Brother1816Printed-Black.woff */,
+				7862358E835A431D9473D262 /* Brother1816Printed-Black.woff2 */,
+				EAAC29BE19B04AA3AAFE7BB3 /* Brother1816Printed-BlackItalic.ttf */,
+				27B63890F5104E61BC3D9C32 /* Brother1816Printed-BlackItalic.woff */,
+				CD7A76202EFD42D5835A9CF1 /* Brother1816Printed-BlackItalic.woff2 */,
+				3D7647EC943E488B918A03DC /* Brother1816Printed-Bold.ttf */,
+				F48DA8BAC1424B28BA598179 /* Brother1816Printed-Bold.woff */,
+				D705308A0385448FA0F3DE37 /* Brother1816Printed-Bold.woff2 */,
+				A1A0703F63324ADD8B81DCE9 /* Brother1816Printed-BoldItalic.ttf */,
+				C947990FD87A43E5AE708C0C /* Brother1816Printed-BoldItalic.woff */,
+				EFCFE45B11EE45EFA425CC4B /* Brother1816Printed-BoldItalic.woff2 */,
+				BBB90BE31F524165B74222B2 /* Brother1816Printed-Book.ttf */,
+				FE6CD9C4CC844966A129F51C /* Brother1816Printed-Book.woff */,
+				B7AB80603D2A47BFA9BC2F5D /* Brother1816Printed-Book.woff2 */,
+				8D6D5D75AA654B06A7AE42CD /* Brother1816Printed-BookItalic.ttf */,
+				4CFA481FAC6842B0991E9208 /* Brother1816Printed-BookItalic.woff */,
+				C5C7F14A81A94077894B3882 /* Brother1816Printed-BookItalic.woff2 */,
+				8E098419390D4B3E8F456FE1 /* Brother1816Printed-ExtraBold.ttf */,
+				C2F1D3253BED43A78F255DEA /* Brother1816Printed-ExtraBold.woff */,
+				3FEEBB9212F7468784F3D416 /* Brother1816Printed-ExtraBold.woff2 */,
+				77150AFBA0A54D52B44E8F15 /* Brother1816Printed-ExtraBoldIta.ttf */,
+				92CA0105F4FB4621975C4D53 /* Brother1816Printed-ExtraBoldIta.woff */,
+				008D0B968B6844FAB74818DD /* Brother1816Printed-ExtraBoldIta.woff2 */,
+				A72F5058A8734464867DB8C2 /* Brother1816Printed-Light.ttf */,
+				11C41B950B3A499D95CEFF9C /* Brother1816Printed-Light.woff */,
+				6C8FCF62C72F4F51AECE64F7 /* Brother1816Printed-Light.woff2 */,
+				68CC8FFC2B7241DBAA5F10DA /* Brother1816Printed-LightItalic.ttf */,
+				DF7476CFDA404F3F9B10CAD7 /* Brother1816Printed-LightItalic.woff */,
+				89EBAD905A854D6BA8005A05 /* Brother1816Printed-LightItalic.woff2 */,
+				249215E89AB047B0BDB9C273 /* Brother1816Printed-Medium.ttf */,
+				064601F80CE94B74AA7ECDD7 /* Brother1816Printed-Medium.woff */,
+				9F0DAE36836E447FA4B844A9 /* Brother1816Printed-Medium.woff2 */,
+				732E6935405E41A3981F4E51 /* Brother1816Printed-MediumItalic.ttf */,
+				BBBFAD01F6284DCAA5BF694C /* Brother1816Printed-MediumItalic.woff */,
+				9A864BF4F1904D22832E54A4 /* Brother1816Printed-MediumItalic.woff2 */,
+				32FBED6FE7614DC7914B9EAC /* Brother1816Printed-Regular.ttf */,
+				C484D63AD1634B20B2A23108 /* Brother1816Printed-Regular.woff */,
+				30E253D9D87A4BACA4CC6559 /* Brother1816Printed-Regular.woff2 */,
+				0016FCD7CE7148A1AE3F8CBA /* Brother1816Printed-RegularItali.ttf */,
+				051C3F45654A4DF09C7AD979 /* Brother1816Printed-RegularItali.woff */,
+				03DB8E5E002D40F4A90E7E11 /* Brother1816Printed-RegularItali.woff2 */,
+				9AD1C3E6731342B38B437960 /* Brother1816Printed-Thin.ttf */,
+				46273B41ABCB48E993EA64C6 /* Brother1816Printed-Thin.woff */,
+				25D25A3A64D443E0AE30B952 /* Brother1816Printed-Thin.woff2 */,
+				C26DA8FC19CB481F87805E0F /* Brother1816Printed-ThinItalic.ttf */,
+				63768403E11B416EB4A46B0B /* Brother1816Printed-ThinItalic.woff */,
+				BBA07D52E47A429C86984920 /* Brother1816Printed-ThinItalic.woff2 */,
+				C214569DDF39406593C6AADA /* AntDesign.ttf */,
+				66E0E363F50B4B13B1388E9B /* Entypo.ttf */,
+				7658412411744A38A3028BD3 /* EvilIcons.ttf */,
+				FDC18B96E3364508B90D722C /* Feather.ttf */,
+				807ACBFC0B2A452AA5EB7B28 /* FontAwesome.ttf */,
+				00A8BEA7BBE148F2A25B8B0D /* FontAwesome5_Brands.ttf */,
+				FD273F5F634A4BA58B122B55 /* FontAwesome5_Regular.ttf */,
+				C1F747EADAE34B2D850DF8F8 /* FontAwesome5_Solid.ttf */,
+				C138CFEF9BE84ED19AEC8D4B /* Fontisto.ttf */,
+				4B305210C1594A4F9B964C30 /* Foundation.ttf */,
+				D9BA2A8F68EB4AEC99FCBDC4 /* Ionicons.ttf */,
+				783555C9EBCC44028B21EF10 /* MaterialCommunityIcons.ttf */,
+				712C886EF6D349A4ACC404CF /* MaterialIcons.ttf */,
+				02EC2C04C5844CF4A8814387 /* Octicons.ttf */,
+				D016B3E86F944779A315C34D /* SimpleLineIcons.ttf */,
+				4216BE2651334598BF5B02A0 /* Zocial.ttf */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+			path = "";
 		};
 /* End PBXGroup section */
 
@@ -285,7 +1027,7 @@
 		83CBB9F71A601CBA00E9B192 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastUpgradeCheck = 0940;
+				LastUpgradeCheck = 940;
 				ORGANIZATIONNAME = Facebook;
 				TargetAttributes = {
 					00E356ED1AD99517003FC87E = {
@@ -308,6 +1050,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);
@@ -336,8 +1079,250 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A1EEFAAB23E1A45E00649E56 /* Brother1816Printed-Light.woff2 in Resources */,
+				A1EEFAA623E1A45E00649E56 /* Brother1816-BlackItalic.woff in Resources */,
+				A1EEFAB423E1A45E00649E56 /* Brother1816-ThinItalic.ttf in Resources */,
+				A1EEFA7923E1A45E00649E56 /* Brother1816-Medium.ttf in Resources */,
+				A1EEFAA323E1A45E00649E56 /* Brother1816-Book.woff2 in Resources */,
+				A1EEFAD223E1A45E00649E56 /* Brother1816-BookItalic.woff in Resources */,
+				A1EEFA9F23E1A45E00649E56 /* Brother1816Printed-BlackItalic.woff in Resources */,
+				A1EEFA7D23E1A45E00649E56 /* Brother1816-BoldItalic.eot in Resources */,
 				13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */,
+				A1EEFA6E23E1A45E00649E56 /* Brother1816-Book.woff in Resources */,
+				A1EEFA8D23E1A45E00649E56 /* Brother1816Printed-MediumItalic.ttf in Resources */,
+				A1EEFAB223E1A45E00649E56 /* Brother1816-ExtraBoldItalic.ttf in Resources */,
+				A1EEFABC23E1A45E00649E56 /* Brother1816Printed-Thin.woff2 in Resources */,
+				A1EEFAA923E1A45E00649E56 /* Brother1816Printed-Bold.ttf in Resources */,
+				A1EEFAC223E1A45E00649E56 /* Brother1816-ExtraBold.woff2 in Resources */,
+				A1EEFACC23E1A45E00649E56 /* Brother1816Printed-Black.ttf in Resources */,
+				A1EEFA7423E1A45E00649E56 /* Brother1816Printed-Regular.woff in Resources */,
+				A1EEFA7F23E1A45E00649E56 /* Brother1816-Regular.woff in Resources */,
+				A1EEFADE23E1A45E00649E56 /* Brother1816Printed-MediumItalic.woff in Resources */,
+				A1EEFAB823E1A45E00649E56 /* Brother1816-MediumItalic.woff2 in Resources */,
+				A1EEFAB923E1A45E00649E56 /* Brother1816-Regular.eot in Resources */,
+				A1EEFA8123E1A45E00649E56 /* Brother1816-Regular.woff2 in Resources */,
+				A1EEFA6723E1A45E00649E56 /* Brother1816Printed-Black.eot in Resources */,
+				A1EEFA8623E1A45E00649E56 /* Brother1816-LightItalic.eot in Resources */,
+				A1EEFABF23E1A45E00649E56 /* Brother1816Printed-Bold.eot in Resources */,
+				A1EEFA7E23E1A45E00649E56 /* Brother1816Printed-LightItalic.woff in Resources */,
+				A1EEFAA223E1A45E00649E56 /* Brother1816-Medium.woff2 in Resources */,
+				A1EEFABD23E1A45E00649E56 /* Brother1816Printed-ExtraBold.woff in Resources */,
+				A1EEFAA423E1A45E00649E56 /* Brother1816Printed-Bold.woff in Resources */,
+				A1EEFA8323E1A45E00649E56 /* Brother1816Printed-ThinItalic.woff in Resources */,
+				A1EEFA9823E1A45E00649E56 /* Brother1816-Book.eot in Resources */,
+				A1EEFAAF23E1A45E00649E56 /* Brother1816Printed-LightItalic.woff2 in Resources */,
+				A1EEFAD823E1A45E00649E56 /* Brother1816-ThinItalic.woff in Resources */,
+				A1EEFA9C23E1A45E00649E56 /* Brother1816Printed-ThinItalic.ttf in Resources */,
+				A1EEFA5F23E1A45E00649E56 /* Brother1816Printed-ExtraBold.woff2 in Resources */,
+				A1EEFA7723E1A45E00649E56 /* Brother1816-BoldItalic.ttf in Resources */,
+				A1EEFAA823E1A45E00649E56 /* Brother1816Printed-Book.eot in Resources */,
+				A1EEFAA023E1A45E00649E56 /* Brother1816-Bold.woff in Resources */,
+				A1EEFAD123E1A45E00649E56 /* Brother1816Printed-Regular.woff2 in Resources */,
+				A1EEFA7023E1A45E00649E56 /* Brother1816-BoldItalic.woff2 in Resources */,
+				A1EEFA6D23E1A45E00649E56 /* Brother1816-Light.woff2 in Resources */,
+				A1EEFAB023E1A45E00649E56 /* Brother1816Printed-ExtraBold.eot in Resources */,
+				A1EEFADF23E1A45E00649E56 /* Brother1816Printed-RegularItali.eot in Resources */,
+				A1EEFA9123E1A45E00649E56 /* Brother1816-Medium.woff in Resources */,
+				A1EEFA9D23E1A45E00649E56 /* Brother1816-Bold.ttf in Resources */,
+				A1EEFA9B23E1A45E00649E56 /* Brother1816Printed-BlackItalic.woff2 in Resources */,
+				A1EEFAB623E1A45E00649E56 /* Brother1816-Book.ttf in Resources */,
+				A1EEFAD723E1A45E00649E56 /* Brother1816-Thin.eot in Resources */,
+				A1EEFAB523E1A45E00649E56 /* Brother1816-ExtraBold.ttf in Resources */,
+				A1EEFAD623E1A45E00649E56 /* Brother1816Printed-Book.woff2 in Resources */,
+				A1EEFAC423E1A45E00649E56 /* Brother1816-ThinItalic.woff2 in Resources */,
+				A1EEFA9623E1A45E00649E56 /* Brother1816Printed-ExtraBoldIta.woff2 in Resources */,
+				A1EEFA7123E1A45E00649E56 /* Brother1816-Light.ttf in Resources */,
+				A1EEFA8C23E1A45E00649E56 /* Brother1816Printed-Book.woff in Resources */,
+				A1EEFAA723E1A45E00649E56 /* Brother1816Printed-Light.ttf in Resources */,
+				A1EEFACF23E1A45E00649E56 /* Brother1816Printed-Thin.eot in Resources */,
+				A1EEFA6823E1A45E00649E56 /* Brother1816-Thin.woff in Resources */,
+				A1EEFAB123E1A45E00649E56 /* Brother1816-ExtraBold.eot in Resources */,
+				A1EEFA6323E1A45E00649E56 /* Brother1816Printed-Black.woff2 in Resources */,
+				A1EEFA6423E1A45E00649E56 /* Brother1816-ExtraBoldItalic.woff2 in Resources */,
+				A1EEFA8823E1A45E00649E56 /* Brother1816Printed-ExtraBoldIta.ttf in Resources */,
+				A1EEFAA523E1A45E00649E56 /* Brother1816-MediumItalic.woff in Resources */,
+				A1EEFAD923E1A45E00649E56 /* Brother1816-Regulartalic.ttf in Resources */,
+				A1EEFAC623E1A45E00649E56 /* Brother1816-Black.woff2 in Resources */,
 				13B07FBD1A68108700A75B9A /* LaunchScreen.xib in Resources */,
+				A1EEFA8423E1A45E00649E56 /* Brother1816Printed-Black.woff in Resources */,
+				A1EEFA6923E1A45E00649E56 /* Brother1816Printed-Thin.woff in Resources */,
+				A1EEFAD423E1A45E00649E56 /* Brother1816-LightItalic.woff in Resources */,
+				A1EEFAC523E1A45E00649E56 /* stylesheet.css in Resources */,
+				A1EEFA7323E1A45E00649E56 /* Brother1816Printed-Regular.eot in Resources */,
+				A1EEFADC23E1A45E00649E56 /* Brother1816Printed-BlackItalic.eot in Resources */,
+				A1EEFADA23E1A45E00649E56 /* Brother1816Printed-Light.woff in Resources */,
+				A1EEFAD323E1A45E00649E56 /* Brother1816-Light.woff in Resources */,
+				A1EEFA9323E1A45E00649E56 /* Brother1816Printed-LightItalic.eot in Resources */,
+				A1EEFA8923E1A45E00649E56 /* Brother1816Printed-MediumItalic.eot in Resources */,
+				A1EEFA7223E1A45E00649E56 /* Brother1816-ExtraBoldItalic.woff in Resources */,
+				A1EEFA6F23E1A45E00649E56 /* Brother1816Printed-Bold.woff2 in Resources */,
+				A1EEFAC723E1A45E00649E56 /* Brother1816Printed-Book.ttf in Resources */,
+				A1EEFA7623E1A45E00649E56 /* Brother1816Printed-Medium.woff in Resources */,
+				A1EEFA8523E1A45E00649E56 /* Brother1816-Thin.ttf in Resources */,
+				A1EEFA7A23E1A45E00649E56 /* demo.html in Resources */,
+				A1EEFA6C23E1A45E00649E56 /* Brother1816-Regular.ttf in Resources */,
+				A1EEFAC823E1A45E00649E56 /* Brother1816-LightItalic.ttf in Resources */,
+				A1EEFA8223E1A45E00649E56 /* Brother1816Printed-LightItalic.ttf in Resources */,
+				A1EEFA6123E1A45E00649E56 /* Brother1816-Black.woff in Resources */,
+				A1EEFA7C23E1A45E00649E56 /* Brother1816-Light.eot in Resources */,
+				A1EEFADB23E1A45E00649E56 /* Brother1816Printed-RegularItali.woff in Resources */,
+				A1EEFA9A23E1A45E00649E56 /* Brother1816-Medium.eot in Resources */,
+				A1EEFAAC23E1A45E00649E56 /* Brother1816Printed-BookItalic.woff2 in Resources */,
+				A1EEFA6023E1A45E00649E56 /* Brother1816-BlackItalic.eot in Resources */,
+				A1EEFA8A23E1A45E00649E56 /* Brother1816-Black.ttf in Resources */,
+				A1EEFACB23E1A45E00649E56 /* Brother1816Printed-BookItalic.woff in Resources */,
+				A1EEFAC923E1A45E00649E56 /* Brother1816Printed-ThinItalic.woff2 in Resources */,
+				A1EEFA7B23E1A45E00649E56 /* Brother1816Printed-BlackItalic.ttf in Resources */,
+				A1EEFAD523E1A45E00649E56 /* Brother1816-BoldItalic.woff in Resources */,
+				A1EEFABB23E1A45E00649E56 /* Brother1816-Regulartalic.eot in Resources */,
+				A1EEFAD023E1A45E00649E56 /* Brother1816-Thin.woff2 in Resources */,
+				A1EEFAAD23E1A45E00649E56 /* Brother1816-Regulartalic.woff in Resources */,
+				A1EEFACD23E1A45E00649E56 /* Brother1816-MediumItalic.ttf in Resources */,
+				A1EEFA8723E1A45E00649E56 /* Brother1816-BookItalic.eot in Resources */,
+				A1EEFA9523E1A45E00649E56 /* Brother1816-MediumItalic.eot in Resources */,
+				A1EEFABA23E1A45E00649E56 /* Brother1816Printed-Light.eot in Resources */,
+				A1EEFACE23E1A45E00649E56 /* Brother1816Printed-ExtraBoldIta.woff in Resources */,
+				A1EEFA9223E1A45E00649E56 /* Brother1816Printed-BoldItalic.woff2 in Resources */,
+				A1EEFA6223E1A45E00649E56 /* Brother1816Printed-Regular.ttf in Resources */,
+				A1EEFAE023E1A45E00649E56 /* Brother1816Printed-RegularItali.ttf in Resources */,
+				A1EEFAB723E1A45E00649E56 /* Brother1816Printed-BoldItalic.woff in Resources */,
+				A1EEFA7523E1A45E00649E56 /* Brother1816Printed-ExtraBoldIta.eot in Resources */,
+				A1EEFA7823E1A45E00649E56 /* Brother1816Printed-Thin.ttf in Resources */,
+				A1EEFA9023E1A45E00649E56 /* Brother1816Printed-BoldItalic.ttf in Resources */,
+				A1EEFA8E23E1A45E00649E56 /* Brother1816-Black.eot in Resources */,
+				A1EEFAA123E1A45E00649E56 /* Brother1816-BookItalic.ttf in Resources */,
+				A1EEFACA23E1A45E00649E56 /* Brother1816Printed-RegularItali.woff2 in Resources */,
+				A1EEFA9423E1A45E00649E56 /* Brother1816-LightItalic.woff2 in Resources */,
+				A1EEFAB323E1A45E00649E56 /* Brother1816-ExtraBoldItalic.eot in Resources */,
+				A1EEFADD23E1A45E00649E56 /* Brother1816-BlackItalic.woff2 in Resources */,
+				A1EEFA9723E1A45E00649E56 /* Brother1816Printed-BookItalic.eot in Resources */,
+				A1EEFA6B23E1A45E00649E56 /* Brother1816-Bold.woff2 in Resources */,
+				A1EEFA8B23E1A45E00649E56 /* Brother1816-Bold.eot in Resources */,
+				A1EEFA9923E1A45E00649E56 /* Brother1816Printed-BookItalic.ttf in Resources */,
+				A1EEFAAA23E1A45E00649E56 /* Brother1816Printed-Medium.eot in Resources */,
+				A1EEFA6523E1A45E00649E56 /* Brother1816Printed-ExtraBold.ttf in Resources */,
+				A1EEFA8F23E1A45E00649E56 /* Brother1816Printed-BoldItalic.eot in Resources */,
+				A1EEFAC123E1A45E00649E56 /* Brother1816-Regulartalic.woff2 in Resources */,
+				A1EEFA6A23E1A45E00649E56 /* Brother1816-ThinItalic.eot in Resources */,
+				A1EEFAAE23E1A45E00649E56 /* Brother1816-BookItalic.woff2 in Resources */,
+				A1EEFAC323E1A45E00649E56 /* Brother1816-BlackItalic.ttf in Resources */,
+				A1EEFAC023E1A45E00649E56 /* Brother1816Printed-Medium.woff2 in Resources */,
+				A1EEFA9E23E1A45E00649E56 /* Brother1816Printed-ThinItalic.eot in Resources */,
+				A1EEFA8023E1A45E00649E56 /* Brother1816-ExtraBold.woff in Resources */,
+				A1EEFA6623E1A45E00649E56 /* Brother1816Printed-MediumItalic.woff2 in Resources */,
+				A1EEFABE23E1A45E00649E56 /* Brother1816Printed-Medium.ttf in Resources */,
+				A862198025C34DC79A9C7FD1 /* Brother1816-Black.ttf in Resources */,
+				E623448C678F4C44BAB03238 /* Brother1816-Black.woff in Resources */,
+				422D7ED36C0E433B99296636 /* Brother1816-Black.woff2 in Resources */,
+				18FB5287AEC24DF1BC379A9C /* Brother1816-BlackItalic.ttf in Resources */,
+				D79F9531892048349AD81440 /* Brother1816-BlackItalic.woff in Resources */,
+				93AD02567D6A453D8B608140 /* Brother1816-BlackItalic.woff2 in Resources */,
+				D4DAEECA61DE4910883043EC /* Brother1816-Bold.ttf in Resources */,
+				FA1693CDADEA44BCACC4232D /* Brother1816-Bold.woff in Resources */,
+				42A8DCBA8C5842BA965EFC06 /* Brother1816-Bold.woff2 in Resources */,
+				B660B80E23B8463085578F43 /* Brother1816-BoldItalic.ttf in Resources */,
+				0F80275575CD48FC92B7AB7A /* Brother1816-BoldItalic.woff in Resources */,
+				D5CD07092E62408D89C53A2A /* Brother1816-BoldItalic.woff2 in Resources */,
+				BB3DF888BBE84F2795692621 /* Brother1816-Book.ttf in Resources */,
+				59D204A7936E477BB36D2DF6 /* Brother1816-Book.woff in Resources */,
+				2BA904D1309A4C39BDEF247C /* Brother1816-Book.woff2 in Resources */,
+				CD153F43450A4BC8BDBED8EA /* Brother1816-BookItalic.ttf in Resources */,
+				B3F55D7546434026A9DAD0EF /* Brother1816-BookItalic.woff in Resources */,
+				D50F3ABB5E744BE287E1DE88 /* Brother1816-BookItalic.woff2 in Resources */,
+				159A01646AF045619FAC7E06 /* Brother1816-ExtraBold.ttf in Resources */,
+				805A6B6951E044B6A6E1DB7F /* Brother1816-ExtraBold.woff in Resources */,
+				C627EE9455924DBDA9274D29 /* Brother1816-ExtraBold.woff2 in Resources */,
+				0D9B78769AB047218578E405 /* Brother1816-ExtraBoldItalic.ttf in Resources */,
+				43D8AEDFC472464CB6C69EE1 /* Brother1816-ExtraBoldItalic.woff in Resources */,
+				89FCEE528CE14E7997738967 /* Brother1816-ExtraBoldItalic.woff2 in Resources */,
+				5035CB83F8D140B883A6F237 /* Brother1816-Light.ttf in Resources */,
+				D53723521DC7452B9A66B28F /* Brother1816-Light.woff in Resources */,
+				C40E799D983D4EA3A294F1D3 /* Brother1816-Light.woff2 in Resources */,
+				61CBB6CE20F44F01822F7EFE /* Brother1816-LightItalic.ttf in Resources */,
+				67080EAE75F545279DCE08E2 /* Brother1816-LightItalic.woff in Resources */,
+				3CEA7281C97B4650B7861DB4 /* Brother1816-LightItalic.woff2 in Resources */,
+				4BE1B1E6D8224E56B3969EB5 /* Brother1816-Medium.ttf in Resources */,
+				0F544E8C46BB410E98B20289 /* Brother1816-Medium.woff in Resources */,
+				A61779C78F374D6C879A60F1 /* Brother1816-Medium.woff2 in Resources */,
+				CEFD28A804AA41F0A6BBB0DF /* Brother1816-MediumItalic.ttf in Resources */,
+				7BEAC575160E4CF4A5906C38 /* Brother1816-MediumItalic.woff in Resources */,
+				31FC642544B8410EBCDD0E11 /* Brother1816-MediumItalic.woff2 in Resources */,
+				69D8390A2EC64A5FBE7F06DC /* Brother1816-Regular.ttf in Resources */,
+				BDE987CF6B1E40879A267F64 /* Brother1816-Regular.woff in Resources */,
+				328EDC6A860B4006ADA3CA27 /* Brother1816-Regular.woff2 in Resources */,
+				AA67B075CDDE4AA094DD6AE0 /* Brother1816-Regulartalic.ttf in Resources */,
+				284A1574036046FC922F7DBE /* Brother1816-Regulartalic.woff in Resources */,
+				F44B10A7AA484E5783C23D6D /* Brother1816-Regulartalic.woff2 in Resources */,
+				2B0B5330B71E4BEF8B42E084 /* Brother1816-Thin.ttf in Resources */,
+				422FC7084F3C4C62B599E3D1 /* Brother1816-Thin.woff in Resources */,
+				B0B0523E60B2435C992E6097 /* Brother1816-Thin.woff2 in Resources */,
+				08261162D94649EBBEA443BE /* Brother1816-ThinItalic.ttf in Resources */,
+				7FA07CD2DED74900B8BE4790 /* Brother1816-ThinItalic.woff in Resources */,
+				8945195A77394777B7DA5262 /* Brother1816-ThinItalic.woff2 in Resources */,
+				D363F0CE5A3E42CC8DA2A5F9 /* Brother1816Printed-Black.ttf in Resources */,
+				4AA926E3EFD24F57BB99AE0C /* Brother1816Printed-Black.woff in Resources */,
+				DC299D5CB18243B5839DFB5D /* Brother1816Printed-Black.woff2 in Resources */,
+				0E4F6AD0424A468DAD8AE100 /* Brother1816Printed-BlackItalic.ttf in Resources */,
+				5E3863CD618A4F249C083CC9 /* Brother1816Printed-BlackItalic.woff in Resources */,
+				631FA7E494F842B48093DDA1 /* Brother1816Printed-BlackItalic.woff2 in Resources */,
+				D29D46DF3DC143F88DE99045 /* Brother1816Printed-Bold.ttf in Resources */,
+				C50805A3E1C849D087BA0FBA /* Brother1816Printed-Bold.woff in Resources */,
+				4E6A8B00329747BAAC1EA463 /* Brother1816Printed-Bold.woff2 in Resources */,
+				864AC8A2C240411EB840429E /* Brother1816Printed-BoldItalic.ttf in Resources */,
+				555E86675E99482F9966FED7 /* Brother1816Printed-BoldItalic.woff in Resources */,
+				E0BAA00C0D6C407C8BC2075B /* Brother1816Printed-BoldItalic.woff2 in Resources */,
+				3699B330B086481591E91C0F /* Brother1816Printed-Book.ttf in Resources */,
+				FB58316BDBA841099D24BDD0 /* Brother1816Printed-Book.woff in Resources */,
+				3F3A40FFE336411D88D7C354 /* Brother1816Printed-Book.woff2 in Resources */,
+				F20A565E037C438C8463AA26 /* Brother1816Printed-BookItalic.ttf in Resources */,
+				C56F619A775C4A92BE15B8CB /* Brother1816Printed-BookItalic.woff in Resources */,
+				FB8FA21A9B1E43108E636676 /* Brother1816Printed-BookItalic.woff2 in Resources */,
+				E9552142A14F48C4980D8DAF /* Brother1816Printed-ExtraBold.ttf in Resources */,
+				4B864071632E488BBCF56777 /* Brother1816Printed-ExtraBold.woff in Resources */,
+				F7F3B5B47794402B998B8B31 /* Brother1816Printed-ExtraBold.woff2 in Resources */,
+				9E74BCB8E36D478BB4D356D2 /* Brother1816Printed-ExtraBoldIta.ttf in Resources */,
+				B458D418B6B54AFD90B0AB62 /* Brother1816Printed-ExtraBoldIta.woff in Resources */,
+				EAAB54DF8F4B4E938AA84ACA /* Brother1816Printed-ExtraBoldIta.woff2 in Resources */,
+				0CB6370288DF47CE8F78533D /* Brother1816Printed-Light.ttf in Resources */,
+				188C57BA73004EC186613AC2 /* Brother1816Printed-Light.woff in Resources */,
+				7481A8DCA5D6421887CA324E /* Brother1816Printed-Light.woff2 in Resources */,
+				A08983FBF7EB41179FD531FC /* Brother1816Printed-LightItalic.ttf in Resources */,
+				D2E8F3847ACF46DDA6B3415D /* Brother1816Printed-LightItalic.woff in Resources */,
+				487F93A2D25F4B45A425EF1F /* Brother1816Printed-LightItalic.woff2 in Resources */,
+				A5D8F38D31104ADDAA9ACDA6 /* Brother1816Printed-Medium.ttf in Resources */,
+				29D7236EEA554FB09EF4BD1C /* Brother1816Printed-Medium.woff in Resources */,
+				9C26C723CC724A7BB76A4A52 /* Brother1816Printed-Medium.woff2 in Resources */,
+				BBEA0891C43942EFA4181DF9 /* Brother1816Printed-MediumItalic.ttf in Resources */,
+				4511F45697374685B0C22C95 /* Brother1816Printed-MediumItalic.woff in Resources */,
+				9ADB6F7FE60A4F599F2D4ECC /* Brother1816Printed-MediumItalic.woff2 in Resources */,
+				A333F1E05D5B4FFD8CA29567 /* Brother1816Printed-Regular.ttf in Resources */,
+				1DE09930AD3B440CA196E09D /* Brother1816Printed-Regular.woff in Resources */,
+				BDEB232E260D4E34A92DCD9E /* Brother1816Printed-Regular.woff2 in Resources */,
+				5FAE268EF5FD43BAA87381A0 /* Brother1816Printed-RegularItali.ttf in Resources */,
+				2AFC48943995442F904F45BB /* Brother1816Printed-RegularItali.woff in Resources */,
+				D23D51E2544D43619C38FA73 /* Brother1816Printed-RegularItali.woff2 in Resources */,
+				716C83880DAD402EBAF2A5E7 /* Brother1816Printed-Thin.ttf in Resources */,
+				78733FEC98994C35A78635AF /* Brother1816Printed-Thin.woff in Resources */,
+				E331320E90A141F0B1A9D914 /* Brother1816Printed-Thin.woff2 in Resources */,
+				F56EC8DFAD904B769F51D2C0 /* Brother1816Printed-ThinItalic.ttf in Resources */,
+				476C6BDEC89C4A6CA33985EA /* Brother1816Printed-ThinItalic.woff in Resources */,
+				37F62217FDC9412AB4A93BE2 /* Brother1816Printed-ThinItalic.woff2 in Resources */,
+				A9C85D1A8E7847DDA354A5B3 /* AntDesign.ttf in Resources */,
+				5F2E0F1500C048B6A246FD85 /* Entypo.ttf in Resources */,
+				9C50F99D18654A3D93668428 /* EvilIcons.ttf in Resources */,
+				FCEA0F4213A547D882296AB8 /* Feather.ttf in Resources */,
+				A3B1A06990574E40ADB49E28 /* FontAwesome.ttf in Resources */,
+				F011E7E3E2D94FAC9FBF39EE /* FontAwesome5_Brands.ttf in Resources */,
+				5D6ECE9F2CD84E46B24C4FCC /* FontAwesome5_Regular.ttf in Resources */,
+				362CB2A546AF4B3EB210EC11 /* FontAwesome5_Solid.ttf in Resources */,
+				F511B74E7D984D1594842E9B /* Fontisto.ttf in Resources */,
+				056EAD2C5FAB4D35886E0B0F /* Foundation.ttf in Resources */,
+				BCA8A844D56E4BF789149E37 /* Ionicons.ttf in Resources */,
+				D736C3FF81EE4499B04C605D /* MaterialCommunityIcons.ttf in Resources */,
+				062F37B5E4A949ACA187D694 /* MaterialIcons.ttf in Resources */,
+				A846E7C8BF854D6E99B70FAE /* Octicons.ttf in Resources */,
+				09F577F5D2E34FBE90C7E440 /* SimpleLineIcons.ttf in Resources */,
+				001F7935442940798F8C143B /* Zocial.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
