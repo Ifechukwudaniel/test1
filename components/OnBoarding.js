@@ -65,7 +65,8 @@ const styles = StyleSheet.create({
      height:5,
      borderRadius:50,
      marginLeft:wp("5%"),
-     marginBottom:hp("6%")
+     marginBottom:hp("10%")
+
     },
     activeToggleItem:{
       backgroundColor:"#258B8D", 
@@ -73,6 +74,6 @@ const styles = StyleSheet.create({
       height:5,
       borderRadius:50,
       marginLeft:wp("5%"),
-      marginBottom:hp("6%")
+      marginBottom:hp("10%")
      }
 });
