@@ -1,85 +1,78 @@
 import React, { Component } from 'react';
-import { View, Text ,StyleSheet, Image, TouchableOpacity } from 'react-native';
+import { View, Text ,StyleSheet, Image, TouchableOpacity , Dimensions} from 'react-native';
 import { widthPercentageToDP as wp , heightPercentageToDP as hp} from 'react-native-responsive-screen'
 import {Grid, Col, Row} from 'react-native-easy-grid'
-import AppIntroSlider from 'react-native-app-intro-slider';
-import OnboardingScreens from './Swiper';
 import OnBoardingDATA from './component';
+import Swiper from 'react-native-swiper'
 
 export default class OnBoarding extends Component {
-  state = {
-    skip:true
+  constructor (props) {
+    super(props)
+    this.swiperRef = swiper => this.swiper = swiper
+    this.scrollHandler = page => {
+      console.warn('Page ',page,this.swiper)
+      this.swiper && this.swiper.scrollBy(page, true)
+  }
+  }
+  state= {
+    index:0
   }
   handleSkip= ()=>{
-    alert("jejdjed")
+    this.swiper.scrollBy(2, true)
   }
 
   handleNext= ()=>{
-    alert("jejdjed")
+    this.swiper.scrollBy(1, true)
   }
 
   render() {
     return (
-     <OnboardingScreens  >
+      <>
+        <Swiper 
+         ref={ this.swiperRef} 
+        dotStyle={styles.toggleItem} 
+        index= {this.state.index}
+        activeDotStyle={styles.activeToggleItem}>
          <OnBoardingDATA
           onSkip= {this.handleSkip}
           onNext= {this.handleNext}
+          comment= {"No more grocery shopping"}
           image={require('../assets/images/image1.png')}/>
-         <OnBoardingDATA 
-          onSkip= {this.handleSkip} 
+          <OnBoardingDATA
+          onSkip= {this.handleSkip}
           onNext= {this.handleNext}
+          comment= {"Select a date and hire a chef"}
           image={require('../assets/images/image2.png')}/>
-         <OnBoardingDATA 
-           onSkip= {this.handleSkip}  
+            <OnBoardingDATA
+          onSkip= {this.handleSkip}
           onNext= {this.handleNext}
+          comment= {"Affordable and healthy"}
           image={require('../assets/images/image3.png')}/>
-     </OnboardingScreens>
+        </Swiper>
+       </>
     );
   }
 }
 const styles = StyleSheet.create({
-    container: {
-        marginLeft:wp("10%"),
-        marginRight:wp("10%"),
-        marginTop:hp("10%"),
-        marginBottom:hp("10%"),
-    },
-    iconContainer:{
-      justifyContent:"center"
-    },
-    LogoImageContainer:{
-      width:wp("24%"),
-    },
-    LogoImage:{
-      width:wp("20%"),
-      height:hp("10%"),
-      alignSelf:"center"
-    },
-    header:{
-      height:hp("10%"),
-      alignContent:"center",
-    },
-    SkipContainer:{
-      justifyContent:"center",
+    toggleWrapper:{
+      marginTop:hp('10%'),
+     justifyContent:'center',
       marginRight:wp("7%")
     },
-    image:{
-      height:hp("30%"),
-      width:wp("65%"),
-      alignSelf:"center"
+    toggleItem:{
+     backgroundColor:"#BBBDBF", 
+     width:wp("5%"), 
+     height:5,
+     borderRadius:50,
+     marginLeft:wp("5%"),
+     marginBottom:hp("6%")
     },
-    comment:{
-     marginLeft:wp("10%"),
-     marginRight:wp("9%")
-    },
-    dotStyle:{
-      width:wp("5%"),
+    activeToggleItem:{
+      backgroundColor:"#258B8D", 
+      width:wp("5%"), 
       height:5,
-      backgroundColor:'#BBBDBF'
-    },
-    activeDotStyle:{
-      width:wp("5%"),
-      height:5,
-      backgroundColor:'#258B8D'
-    }
+      borderRadius:50,
+      marginLeft:wp("5%"),
+      marginBottom:hp("6%")
+     }
 });

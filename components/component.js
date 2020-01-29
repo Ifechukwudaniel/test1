@@ -2,10 +2,8 @@ import React, { Component } from 'react';
 import { View, Text ,StyleSheet, Image, TouchableOpacity } from 'react-native';
 import { widthPercentageToDP as wp , heightPercentageToDP as hp} from 'react-native-responsive-screen'
 import {Grid, Col, Row} from 'react-native-easy-grid'
-import AppIntroSlider from 'react-native-app-intro-slider';
-import OnboardingScreens from './Swiper';
 import Icon from 'react-native-vector-icons/Feather'
-
+import Swiper from 'react-native-swiper'
 export default class OnBoardingDATA extends Component {
 
   render() {
@@ -35,11 +33,11 @@ export default class OnBoardingDATA extends Component {
             </Col>
         </Row>
             <Row style={styles.comment}>
-                 <Text style= {{  textAlign:"left", fontSize:18, fontFamily:'Brother 1816'}}> No more grocery shopping</Text>
+                 <Text style= {{  textAlign:"left", fontSize:18, fontFamily:'Brother 1816'}}> {this.props.comment}</Text>
             </Row>
             <Row style={styles.nextButtonWrapper}>
-                <TouchableOpacity style= {styles.nextButton}>
-                   <Text style= {styles.nextButtonText}> Next <Icon name="play"/></Text>
+                <TouchableOpacity onPress={this.props.onNext} style= {styles.nextButton}>
+                   <Text style= {styles.nextButtonText}> Next  <Icon  name="play" /></Text>
               </TouchableOpacity>
             </Row>
       </Grid>
@@ -57,10 +55,10 @@ const styles = StyleSheet.create({
       justifyContent:"center"
     },
     LogoImageContainer:{
-      width:wp("24%"),
+      width:wp("30%"),
     },
     LogoImage:{
-      width:wp("20%"),
+      width:wp("30%"),
       height:hp("10%"),
       alignSelf:"center"
     },
@@ -76,6 +74,7 @@ const styles = StyleSheet.create({
       height:hp("30%"),
       width:wp("65%"),
       alignSelf:"center"
+      ,marginBottom:0
     },
     comment:{
      marginLeft:wp("10%"),
@@ -84,9 +83,10 @@ const styles = StyleSheet.create({
      height:hp("10%")
     },
    nextButtonWrapper:{
-    marginLeft:wp("65%"),
-    marginRight:wp("6%"),
-    marginTop:hp("10%")
+    marginLeft:wp("60%"),
+    marginRight:wp("4%"),
+    marginTop:hp("10%"),
+    marginBottom:0
    },
    nextButton:{
      borderRadius:3,
@@ -101,5 +101,6 @@ const styles = StyleSheet.create({
    nextButtonText:{
      color:"#258B8D",
      fontSize:12,
-   }
+   },
+
 });
